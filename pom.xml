@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>dromard.picasamoviecollection</groupId>
+	<artifactId>picasamoviecollection</artifactId>
+	<name>PicasaMovieCollection</name>
+	<version>0.0.1-SNAPSHOT</version>
+	<description>The purpose is to manage movies using picasa as
+		backend. Storing movies in picasa, the collection is shareable and can
+		be accessed from any where !</description>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+		    <groupId>commons-digester</groupId>
+		    <artifactId>commons-digester</artifactId>
+		    <version>1.7</version>
+		</dependency> 
+	</dependencies>
+	<repositories>
+		<repository>
+			<id>dromard</id>
+			<url>http://pingus.homelinux.net/Maven/repository</url>
+		</repository>
+	     <repository>
+	         <id>JBoss</id>
+	         <url>http://repository.jboss.org/maven2</url>
+	     </repository>
+	     <repository>
+	     	<id>mvnrepository</id>
+	     	<name>MVN repository</name>
+	     	<url>http://www.mvnrepository.com/artifact</url>
+	     </repository>
+	</repositories>
+</project>
