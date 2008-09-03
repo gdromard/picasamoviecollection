@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+	xmlns:exif='http://schemas.google.com/photos/exif/2007' xmlns:geo='http://www.w3.org/2003/01/geo/wgs84_pos#'
+	xmlns:gml='http://www.opengis.net/gml' xmlns:georss='http://www.georss.org/georss'
+	xmlns:photo='http://www.pheed.com/pheed/' xmlns:media='http://search.yahoo.com/mrss/'
+	xmlns:batch='http://schemas.google.com/gdata/batch' xmlns:gphoto='http://schemas.google.com/photos/2007'>
+	<id>http://picasaweb.google.com/data/feed/api/user/mymoviescollections</id>
+	<updated>2008-09-03T08:33:27.109Z</updated>
+	<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#user' />
+	<title type='text'>MyMoviesCollections</title>
+	<subtitle type='text'></subtitle>
+	<icon>
+		http://lh5.ggpht.com/MyMoviesCollections/AAAAmo7iq24/AAAAAAAAAAA/EuuV11KV6no/s64-c/MyMoviesCollections.jpg
+	</icon>
+	<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+		href='http://picasaweb.google.com/data/feed/api/user/MyMoviesCollections' />
+	<link rel='http://schemas.google.com/g/2005#post' type='application/atom+xml'
+		href='http://picasaweb.google.com/data/feed/api/user/MyMoviesCollections?tok=NzngyHUuiWq8-Wl0NaoAN_XAdhc' />
+	<link rel='alternate' type='text/html'
+		href='http://picasaweb.google.com/MyMoviesCollections' />
+	<link rel='http://schemas.google.com/photos/2007#slideshow' type='application/x-shockwave-flash'
+		href='http://picasaweb.google.com/s/c/bin/slideshow.swf?host=picasaweb.google.com&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2FMyMoviesCollections%3Falt%3Drss' />
+	<link rel='self' type='application/atom+xml'
+		href='http://picasaweb.google.com/data/feed/api/user/MyMoviesCollections?start-index=1&amp;max-results=1000&amp;kind=album' />
+	<author>
+		<name>Movie</name>
+		<uri>http://picasaweb.google.com/MyMoviesCollections
+		</uri>
+	</author>
+	<generator version='1.00' uri='http://picasaweb.google.com/'>Picasaweb</generator>
+	<openSearch:totalResults>1</openSearch:totalResults>
+	<openSearch:startIndex>1</openSearch:startIndex>
+	<openSearch:itemsPerPage>1000</openSearch:itemsPerPage>
+	<gphoto:user>MyMoviesCollections</gphoto:user>
+	<gphoto:nickname>Movie</gphoto:nickname>
+	<gphoto:thumbnail>
+		http://lh5.ggpht.com/MyMoviesCollections/AAAAmo7iq24/AAAAAAAAAAA/EuuV11KV6no/s64-c/MyMoviesCollections.jpg
+	</gphoto:thumbnail>
+	<gphoto:quotalimit>1073741824</gphoto:quotalimit>
+	<gphoto:quotacurrent>0</gphoto:quotacurrent>
+	<gphoto:maxPhotosPerAlbum>500</gphoto:maxPhotosPerAlbum>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/MyMoviesCollections/albumid/5241709994530155601
+		</id>
+		<published>2008-09-03T07:00:00.000Z
+		</published>
+		<updated>2008-09-03T08:32:57.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Action</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/MyMoviesCollections/albumid/5241709994530155601' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/MyMoviesCollections/Action' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/MyMoviesCollections/albumid/5241709994530155601' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/MyMoviesCollections/albumid/5241709994530155601/1220430777025000?tok=OpBdHCV_q3wUIgPi8V7BZeLklT0' />
+		<author>
+			<name>Movie</name>
+			<uri>http://picasaweb.google.com/MyMoviesCollections
+			</uri>
+		</author>
+		<gphoto:id>5241709994530155601</gphoto:id>
+		<gphoto:name>Action</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1220425200000</gphoto:timestamp>
+		<gphoto:numphotos>0</gphoto:numphotos>
+		<gphoto:numphotosremaining>500</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>0</gphoto:bytesUsed>
+		<gphoto:user>MyMoviesCollections</gphoto:user>
+		<gphoto:nickname>Movie</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Action</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/MyMoviesCollections/SL5Ld9-VrFE/AAAAAAAAACA/wPF5-jtYMtk/Action.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/MyMoviesCollections/SL5Ld9-VrFE/AAAAAAAAACA/wPF5-jtYMtk/s160-c/Action.jpg'
+				height='160' width='160' />
+			<media:credit>Movie</media:credit>
+		</media:group>
+	</entry>
+</feed>

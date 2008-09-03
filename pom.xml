@@ -20,11 +20,11 @@
 		</plugins>
 	</build>
 	<dependencies>
-		<dependency>
-		    <groupId>commons-digester</groupId>
-		    <artifactId>commons-digester</artifactId>
-		    <version>1.7</version>
-		</dependency> 
+	    <dependency>
+			<groupId>net.dromard.common</groupId>
+			<artifactId>dromard.common</artifactId>
+			<version>1.9</version>
+	    </dependency>
 	</dependencies>
 	<repositories>
 		<repository>
