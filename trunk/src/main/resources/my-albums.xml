@@ -1,0 +1,1588 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+	xmlns:exif='http://schemas.google.com/photos/exif/2007' xmlns:geo='http://www.w3.org/2003/01/geo/wgs84_pos#'
+	xmlns:gml='http://www.opengis.net/gml' xmlns:georss='http://www.georss.org/georss'
+	xmlns:photo='http://www.pheed.com/pheed/' xmlns:media='http://search.yahoo.com/mrss/'
+	xmlns:batch='http://schemas.google.com/gdata/batch' xmlns:gphoto='http://schemas.google.com/photos/2007'>
+	<id>http://picasaweb.google.com/data/feed/api/user/gdromard
+	</id>
+	<updated>2008-09-03T13:20:58.013Z</updated>
+	<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#user' />
+	<title type='text'>gdromard</title>
+	<subtitle type='text'></subtitle>
+	<icon>
+		http://lh6.ggpht.com/gdromard/AAAAR_4z3P0/AAAAAAAAAAA/i2RDY9aN2Zg/s64-c/gdromard.jpg
+	</icon>
+	<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+		href='http://picasaweb.google.com/data/feed/api/user/gdromard' />
+	<link rel='http://schemas.google.com/g/2005#post' type='application/atom+xml'
+		href='http://picasaweb.google.com/data/feed/api/user/gdromard?tok=IhGFX-S1W3Qzk9Xs38acVOIqMkQ' />
+	<link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard' />
+	<link rel='http://schemas.google.com/photos/2007#slideshow' type='application/x-shockwave-flash'
+		href='http://picasaweb.google.com/s/c/bin/slideshow.swf?host=picasaweb.google.com&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fgdromard%3Falt%3Drss' />
+	<link rel='self' type='application/atom+xml'
+		href='http://picasaweb.google.com/data/feed/api/user/gdromard?start-index=1&amp;max-results=1000&amp;kind=album' />
+	<author>
+		<name>Droms</name>
+		<uri>http://picasaweb.google.com/gdromard
+		</uri>
+	</author>
+	<generator version='1.00' uri='http://picasaweb.google.com/'>Picasaweb</generator>
+	<openSearch:totalResults>41</openSearch:totalResults>
+	<openSearch:startIndex>1</openSearch:startIndex>
+	<openSearch:itemsPerPage>1000</openSearch:itemsPerPage>
+	<gphoto:user>gdromard</gphoto:user>
+	<gphoto:nickname>Droms</gphoto:nickname>
+	<gphoto:thumbnail>
+		http://lh6.ggpht.com/gdromard/AAAAR_4z3P0/AAAAAAAAAAA/i2RDY9aN2Zg/s64-c/gdromard.jpg
+	</gphoto:thumbnail>
+	<gphoto:quotalimit>1073741824</gphoto:quotalimit>
+	<gphoto:quotacurrent>362147666</gphoto:quotacurrent>
+	<gphoto:maxPhotosPerAlbum>500</gphoto:maxPhotosPerAlbum>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5241439338772041905
+		</id>
+		<published>2008-09-02T07:00:00.000Z
+		</published>
+		<updated>2008-09-02T15:11:18.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Sébastien Chorier</title>
+		<summary type='text'></summary>
+		<rights type='text'>private</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5241439338772041905?authkey=_lUCEc0ApLc' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/SBastienChorier?authkey=_lUCEc0ApLc' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5241439338772041905?authkey=_lUCEc0ApLc' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5241439338772041905/1220368278984000?tok=vFkLBJpuO65HekkauAF3hUEhcoA&amp;authkey=_lUCEc0ApLc' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5241439338772041905</gphoto:id>
+		<gphoto:name>SBastienChorier</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>private</gphoto:access>
+		<gphoto:timestamp>1220338800000</gphoto:timestamp>
+		<gphoto:numphotos>7</gphoto:numphotos>
+		<gphoto:numphotosremaining>493</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>14345118</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Sébastien Chorier
+			</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh3.ggpht.com/gdromard/SL1VTutEELE/AAAAAAAABOo/DyEa_uQ1hmA/SBastienChorier.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh3.ggpht.com/gdromard/SL1VTutEELE/AAAAAAAABOo/DyEa_uQ1hmA/s160-c/SBastienChorier.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5212595969068515825
+		</id>
+		<published>2008-06-17T03:28:29.000Z
+		</published>
+		<updated>2008-07-31T07:55:28.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Vidéos</title>
+		<summary type='text'></summary>
+		<rights type='text'>private</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5212595969068515825?authkey=ReJ27U0LDqA' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/VidOs?authkey=ReJ27U0LDqA' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5212595969068515825?authkey=ReJ27U0LDqA' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5212595969068515825/1217490928495000?tok=I44lD7VYnsKo_429qBF7fLd6cnk&amp;authkey=ReJ27U0LDqA' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5212595969068515825</gphoto:id>
+		<gphoto:name>VidOs</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>private</gphoto:access>
+		<gphoto:timestamp>1213673309000</gphoto:timestamp>
+		<gphoto:numphotos>2</gphoto:numphotos>
+		<gphoto:numphotosremaining>498</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>35913304</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Vidéos</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/SFbcapX2QfE/AAAAAAAABK8/-ls2Wc3krZc/VidOs.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/SFbcapX2QfE/AAAAAAAABK8/-ls2Wc3krZc/s160-c/VidOs.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5023622071786872737
+		</id>
+		<published>2008-01-23T22:05:53.000Z
+		</published>
+		<updated>2008-03-15T00:11:11.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>One more blog</title>
+		<summary type='text'></summary>
+		<rights type='text'>private</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5023622071786872737?authkey=ztwajCWGIjg' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/OneMoreBlog?authkey=ztwajCWGIjg' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5023622071786872737?authkey=ztwajCWGIjg' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5023622071786872737/1205539871861355?tok=uDmI3vfBb6uxmPl94s7xS15fXbE&amp;authkey=ztwajCWGIjg' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5023622071786872737</gphoto:id>
+		<gphoto:name>OneMoreBlog</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>private</gphoto:access>
+		<gphoto:timestamp>1201125953000</gphoto:timestamp>
+		<gphoto:numphotos>3</gphoto:numphotos>
+		<gphoto:numphotosremaining>497</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>315191</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>One more blog</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/Rbd9qHKrH6E/AAAAAAAABGw/FjVFYNKE8Tc/OneMoreBlog.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/Rbd9qHKrH6E/AAAAAAAABGw/FjVFYNKE8Tc/s160-c/OneMoreBlog.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5151352486127882753
+		</id>
+		<published>2008-01-03T20:38:35.000Z
+		</published>
+		<updated>2008-01-03T20:40:16.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>42 bd Ratalens</title>
+		<summary type='text'></summary>
+		<rights type='text'>private</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5151352486127882753?authkey=6po6dhtNUg4' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/42BdRatalens?authkey=6po6dhtNUg4' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5151352486127882753?authkey=6po6dhtNUg4' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5151352486127882753/1199392816790261?tok=HezqKIK9Ze1llh1XKpTmqXcUQ9M&amp;authkey=6po6dhtNUg4' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5151352486127882753</gphoto:id>
+		<gphoto:name>42BdRatalens</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>private</gphoto:access>
+		<gphoto:timestamp>1199392715000</gphoto:timestamp>
+		<gphoto:numphotos>2</gphoto:numphotos>
+		<gphoto:numphotosremaining>498</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>1200926</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>42 bd Ratalens</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/R31Hywh6UgE/AAAAAAAABEo/Y0EPfPEoxZ4/42BdRatalens.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/R31Hywh6UgE/AAAAAAAABEo/Y0EPfPEoxZ4/s160-c/42BdRatalens.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5133790548053720705
+		</id>
+		<published>2007-11-17T12:32:11.000Z
+		</published>
+		<updated>2007-11-17T12:50:22.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Sony Clié TJ35</title>
+		<summary type='text'></summary>
+		<rights type='text'>private</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5133790548053720705?authkey=LHvNXaxhvZ8' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/SonyCliTJ35?authkey=LHvNXaxhvZ8' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5133790548053720705?authkey=LHvNXaxhvZ8' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5133790548053720705/1195303822945670?tok=vRQNNeDBLEPx9LGpPFKlkSkBC2o&amp;authkey=LHvNXaxhvZ8' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5133790548053720705</gphoto:id>
+		<gphoto:name>SonyCliTJ35</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>private</gphoto:access>
+		<gphoto:timestamp>1195302731000</gphoto:timestamp>
+		<gphoto:numphotos>5</gphoto:numphotos>
+		<gphoto:numphotosremaining>495</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>2112174</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Sony Clié TJ35</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/Rz7jTa___oE/AAAAAAAAA_8/WJSRl39RXaI/SonyCliTJ35.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/Rz7jTa___oE/AAAAAAAAA_8/WJSRl39RXaI/s160-c/SonyCliTJ35.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131688192604345041
+		</id>
+		<published>2007-11-02T07:00:00.000Z
+		</published>
+		<updated>2007-11-25T15:20:25.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Toussaint 2007</title>
+		<summary type='text'>Ballade dans les Landes</summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5131688192604345041' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/Toussaint2007' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131688192604345041' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131688192604345041/1196004025627697?tok=bd0LzYExc5F6Opy5WJPBLCLG0YM' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5131688192604345041</gphoto:id>
+		<gphoto:name>Toussaint2007</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1193986800000</gphoto:timestamp>
+		<gphoto:numphotos>18</gphoto:numphotos>
+		<gphoto:numphotosremaining>482</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>5610971</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Toussaint 2007</media:title>
+			<media:description type='plain'>Ballade dans les
+				Landes</media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/RzdrOOo_ktE/AAAAAAAAA58/5hzWUpEzFXw/Toussaint2007.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/RzdrOOo_ktE/AAAAAAAAA58/5hzWUpEzFXw/s160-c/Toussaint2007.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131687496819642993
+		</id>
+		<published>2007-10-26T10:39:34.000Z
+		</published>
+		<updated>2007-11-11T20:49:48.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Espace IV A Vendre</title>
+		<summary type='text'>Espace IV 2,2 DCI 150 expression, très bon
+			état, couleur Anthracite, 5pl 95000 km, radar de recul, barre de
+			toit, Ordinateur de bord neuf, Clim auto ...</summary>
+		<rights type='text'>private</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5131687496819642993?authkey=KJCseXeFjek' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/EspaceIVAVendre?authkey=KJCseXeFjek' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131687496819642993?authkey=KJCseXeFjek' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131687496819642993/1194814188090831?tok=365GHE2BeMOmJQvSc2Pmk1WrWzc&amp;authkey=KJCseXeFjek' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5131687496819642993</gphoto:id>
+		<gphoto:name>EspaceIVAVendre</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>private</gphoto:access>
+		<gphoto:timestamp>1193395174000</gphoto:timestamp>
+		<gphoto:numphotos>5</gphoto:numphotos>
+		<gphoto:numphotosremaining>495</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>2729230</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Espace IV A Vendre</media:title>
+			<media:description type='plain'>Espace IV 2,2 DCI 150
+				expression, très bon état, couleur Anthracite, 5pl 95000 km, radar
+				de recul, barre de toit, Ordinateur de bord neuf, Clim auto ...
+			</media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh4.ggpht.com/gdromard/Rzdqluo_knE/AAAAAAAAA3k/ZwZiO93xtAA/EspaceIVAVendre.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh4.ggpht.com/gdromard/Rzdqluo_knE/AAAAAAAAA3k/ZwZiO93xtAA/s160-c/EspaceIVAVendre.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131694480436467121
+		</id>
+		<published>2007-10-22T07:00:00.000Z
+		</published>
+		<updated>2007-11-25T15:19:52.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Octobre 2007</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5131694480436467121' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/Octobre2007' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131694480436467121' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131694480436467121/1196003992986737?tok=1r0vdw5UkmSMpVkhfyayLMOCQEs' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5131694480436467121</gphoto:id>
+		<gphoto:name>Octobre2007</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1193036400000</gphoto:timestamp>
+		<gphoto:numphotos>11</gphoto:numphotos>
+		<gphoto:numphotosremaining>489</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>7492386</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Octobre 2007</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/Rzdw8Oo_lbE/AAAAAAAAA-0/MsqdLWCClXQ/Octobre2007.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/Rzdw8Oo_lbE/AAAAAAAAA-0/MsqdLWCClXQ/s160-c/Octobre2007.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131689253461267457
+		</id>
+		<published>2007-10-13T07:00:00.000Z
+		</published>
+		<updated>2007-11-25T15:19:29.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>L'apprentissage du vélo</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5131689253461267457' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/LApprentissageDuVLo' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131689253461267457' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131689253461267457/1196003969072891?tok=dKr3GS04DblsGBej1lx5ym_VkE4' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5131689253461267457</gphoto:id>
+		<gphoto:name>LApprentissageDuVLo</gphoto:name>
+		<gphoto:location>Saint-Jean</gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1192258800000</gphoto:timestamp>
+		<gphoto:numphotos>11</gphoto:numphotos>
+		<gphoto:numphotosremaining>489</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>5884847</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>L'apprentissage du vélo
+			</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh5.ggpht.com/gdromard/RzdsL-o_lAE/AAAAAAAAA7c/WkT9-qPIjPc/LApprentissageDuVLo.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh5.ggpht.com/gdromard/RzdsL-o_lAE/AAAAAAAAA7c/WkT9-qPIjPc/s160-c/LApprentissageDuVLo.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131690026555380929
+		</id>
+		<published>2007-10-11T07:00:00.000Z
+		</published>
+		<updated>2007-11-25T15:18:47.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>L'école à la maison</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5131690026555380929' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/LColeLaMaison' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131690026555380929' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5131690026555380929/1196003927473611?tok=KXdGe3XcxoP23MMZJmbEpenmz8o' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5131690026555380929</gphoto:id>
+		<gphoto:name>LColeLaMaison</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1192086000000</gphoto:timestamp>
+		<gphoto:numphotos>14</gphoto:numphotos>
+		<gphoto:numphotosremaining>486</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>5099148</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>L'école à la maison
+			</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh5.ggpht.com/gdromard/Rzds4-o_lME/AAAAAAAAA9U/2itVHp9EVwU/LColeLaMaison.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh5.ggpht.com/gdromard/Rzds4-o_lME/AAAAAAAAA9U/2itVHp9EVwU/s160-c/LColeLaMaison.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5115610101966171441
+		</id>
+		<published>2007-09-04T18:05:22.000Z
+		</published>
+		<updated>2007-09-29T13:02:05.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>La Fee Chloé</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5115610101966171441' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/LaFeeChlo' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5115610101966171441' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5115610101966171441/1191070925752008?tok=sAO6e9l6rjqT2md7_cJXsGzKEec' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5115610101966171441</gphoto:id>
+		<gphoto:name>LaFeeChlo</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1188929122000</gphoto:timestamp>
+		<gphoto:numphotos>12</gphoto:numphotos>
+		<gphoto:numphotosremaining>488</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>4262385</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>La Fee Chloé</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh5.ggpht.com/gdromard/Rv5MSLkX7TE/AAAAAAAAA0Y/VZvHfq4iSJI/LaFeeChlo.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh5.ggpht.com/gdromard/Rv5MSLkX7TE/AAAAAAAAA0Y/VZvHfq4iSJI/s160-c/LaFeeChlo.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5115608852130688001
+		</id>
+		<published>2007-08-01T15:27:31.000Z
+		</published>
+		<updated>2007-09-29T12:59:52.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Aout 2007</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5115608852130688001' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/Aout2007' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5115608852130688001' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5115608852130688001/1191070792164124?tok=Z9ydtRRaLQlLtsw7pvJMxUJEySY' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5115608852130688001</gphoto:id>
+		<gphoto:name>Aout2007</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1185982051000</gphoto:timestamp>
+		<gphoto:numphotos>18</gphoto:numphotos>
+		<gphoto:numphotosremaining>482</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>6621483</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Aout 2007</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/Rv5LJbkX7AE/AAAAAAAAAy0/aMzyJekdl4E/Aout2007.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/Rv5LJbkX7AE/AAAAAAAAAy0/aMzyJekdl4E/s160-c/Aout2007.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5115608225065462625
+		</id>
+		<published>2007-07-25T09:39:18.000Z
+		</published>
+		<updated>2007-09-29T12:55:00.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Juillet 2007</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5115608225065462625' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/Juillet2007' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5115608225065462625' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5115608225065462625/1191070500904258?tok=IlXeqDg3Uk6EX_QpPpQlwEFYLXY' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5115608225065462625</gphoto:id>
+		<gphoto:name>Juillet2007</gphoto:name>
+		<gphoto:location>Augreilh</gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1185356358000</gphoto:timestamp>
+		<gphoto:numphotos>9</gphoto:numphotos>
+		<gphoto:numphotosremaining>491</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>4752394</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Juillet 2007</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh4.ggpht.com/gdromard/Rv5Kk7kX62E/AAAAAAAAAwA/H3b0giPuoIU/Juillet2007.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh4.ggpht.com/gdromard/Rv5Kk7kX62E/AAAAAAAAAwA/H3b0giPuoIU/s160-c/Juillet2007.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+		<georss:where>
+			<gml:Point>
+				<gml:pos>43.752414 -0.605456</gml:pos>
+			</gml:Point>
+			<gml:Envelope>
+				<gml:lowerCorner>43.7496359 -0.6130859</gml:lowerCorner>
+				<gml:upperCorner>43.7551921 -0.5978261</gml:upperCorner>
+			</gml:Envelope>
+		</georss:where>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5083050795207571377
+		</id>
+		<published>2007-07-03T07:00:00.000Z
+		</published>
+		<updated>2007-07-03T19:18:09.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>GOLF V TDI 90</title>
+		<summary type='text'></summary>
+		<rights type='text'>private</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5083050795207571377?authkey=8xt4qqufVmo' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/GOLFVTDI90?authkey=8xt4qqufVmo' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5083050795207571377?authkey=8xt4qqufVmo' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5083050795207571377/1183490289916787?tok=TO71sgzpNTkEqwyx7Ugc5ew8N0A&amp;authkey=8xt4qqufVmo' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5083050795207571377</gphoto:id>
+		<gphoto:name>GOLFVTDI90</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>private</gphoto:access>
+		<gphoto:timestamp>1183446000000</gphoto:timestamp>
+		<gphoto:numphotos>10</gphoto:numphotos>
+		<gphoto:numphotosremaining>490</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>12026313</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>GOLF V TDI 90</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh3.ggpht.com/gdromard/RoqfxF-dN7E/AAAAAAAAAsk/Sj3q7Ay3srk/GOLFVTDI90.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh3.ggpht.com/gdromard/RoqfxF-dN7E/AAAAAAAAAsk/Sj3q7Ay3srk/s160-c/GOLFVTDI90.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5079357094010326609
+		</id>
+		<published>2007-06-23T15:22:44.000Z
+		</published>
+		<updated>2007-06-23T20:20:54.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Fete de Saint-Jean</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5079357094010326609' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/FeteDeSaintJean' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5079357094010326609' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5079357094010326609/1182630054811582?tok=SlQAZQKLscqF4DlXAq1iIVXDAhg' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5079357094010326609</gphoto:id>
+		<gphoto:name>FeteDeSaintJean</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1182612164000</gphoto:timestamp>
+		<gphoto:numphotos>13</gphoto:numphotos>
+		<gphoto:numphotosremaining>487</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>4242731</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Fete de Saint-Jean</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/Rn2AXYvYjlE/AAAAAAAAAnQ/reKX5MpldYo/FeteDeSaintJean.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/Rn2AXYvYjlE/AAAAAAAAAnQ/reKX5MpldYo/s160-c/FeteDeSaintJean.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5079357411837906737
+		</id>
+		<published>2007-06-22T15:20:01.000Z
+		</published>
+		<updated>2007-06-23T20:21:09.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Fete de Saint-Jo</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5079357411837906737' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/FeteDeSaintJo' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5079357411837906737' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5079357411837906737/1182630069666959?tok=5Ewln0_3wdKug9UawyCejVdBaek' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5079357411837906737</gphoto:id>
+		<gphoto:name>FeteDeSaintJo</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1182525601000</gphoto:timestamp>
+		<gphoto:numphotos>3</gphoto:numphotos>
+		<gphoto:numphotosremaining>497</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>821996</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Fete de Saint-Jo</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh4.ggpht.com/gdromard/Rn2Ap4vYjzE/AAAAAAAAAns/q2agkgZ-ZhA/FeteDeSaintJo.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh4.ggpht.com/gdromard/Rn2Ap4vYjzE/AAAAAAAAAns/q2agkgZ-ZhA/s160-c/FeteDeSaintJo.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5079361023905402737
+		</id>
+		<published>2007-06-03T10:32:49.000Z
+		</published>
+		<updated>2007-06-23T20:40:07.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>2007-06-03 Journée avec les Grands Parents
+		</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5079361023905402737' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/20070603JournEAvecLesGrandsParents' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5079361023905402737' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5079361023905402737/1182631207116966?tok=GQkoiXyjZnZFQPoJcLRlnTe0LWI' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5079361023905402737</gphoto:id>
+		<gphoto:name>20070603JournEAvecLesGrandsParents
+		</gphoto:name>
+		<gphoto:location>Au manége du parc de compans cafarelli
+		</gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1180866769000</gphoto:timestamp>
+		<gphoto:numphotos>27</gphoto:numphotos>
+		<gphoto:numphotosremaining>473</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>20884447</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>2007-06-03 Journée avec les
+				Grands Parents</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh5.ggpht.com/gdromard/Rn2D8IvYj3E/AAAAAAAAArM/jjIZSzKNSTY/20070603JournEAvecLesGrandsParents.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh5.ggpht.com/gdromard/Rn2D8IvYj3E/AAAAAAAAArM/jjIZSzKNSTY/s160-c/20070603JournEAvecLesGrandsParents.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5066181469226266145
+		</id>
+		<published>2007-04-21T06:11:17.000Z
+		</published>
+		<updated>2007-05-19T08:50:39.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Avril 2007</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5066181469226266145' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/Avril2007' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5066181469226266145' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5066181469226266145/1179564639429758?tok=rpQbj2sDyOhlIXnaSXmqRA4Aqok' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5066181469226266145</gphoto:id>
+		<gphoto:name>Avril2007</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1177135877000</gphoto:timestamp>
+		<gphoto:numphotos>89</gphoto:numphotos>
+		<gphoto:numphotosremaining>411</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>48781862</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Avril 2007</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh3.ggpht.com/gdromard/Rk6xNFjl7iE/AAAAAAAAAkw/YAlp75OynOE/Avril2007.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh3.ggpht.com/gdromard/Rk6xNFjl7iE/AAAAAAAAAkw/YAlp75OynOE/s160-c/Avril2007.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045013185047028849
+		</id>
+		<published>2007-03-04T08:00:00.000Z
+		</published>
+		<updated>2007-06-05T21:57:59.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Mars 2007</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5045013185047028849' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/Mars2007' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045013185047028849' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045013185047028849/1181080679895876?tok=5dg8DKYjd-8ONFcYgWYn9skn4Mc' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5045013185047028849</gphoto:id>
+		<gphoto:name>Mars2007</gphoto:name>
+		<gphoto:location>Enbarrus</gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1172995200000</gphoto:timestamp>
+		<gphoto:numphotos>44</gphoto:numphotos>
+		<gphoto:numphotosremaining>456</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>7067748</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Mars 2007</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh5.ggpht.com/gdromard/RgN8wx3j5HE/AAAAAAAAAMw/tUTYoQgq2J4/Mars2007.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh5.ggpht.com/gdromard/RgN8wx3j5HE/AAAAAAAAAMw/tUTYoQgq2J4/s160-c/Mars2007.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045013468514870817
+		</id>
+		<published>2007-02-25T21:39:20.000Z
+		</published>
+		<updated>2007-06-05T21:57:59.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Carralege de la cuisine</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5045013468514870817' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/CarralegeDeLaCuisine' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045013468514870817' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045013468514870817/1181080679997520?tok=Qm0OtEzUfSyyO7h73pdRgstaz-s' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5045013468514870817</gphoto:id>
+		<gphoto:name>CarralegeDeLaCuisine</gphoto:name>
+		<gphoto:location>Saint Jean</gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1172439560000</gphoto:timestamp>
+		<gphoto:numphotos>8</gphoto:numphotos>
+		<gphoto:numphotosremaining>492</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>803251</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Carralege de la cuisine
+			</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh3.ggpht.com/gdromard/RgN9BR3j5iE/AAAAAAAAAJs/kBd2eEfgnQg/CarralegeDeLaCuisine.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh3.ggpht.com/gdromard/RgN9BR3j5iE/AAAAAAAAAJs/kBd2eEfgnQg/s160-c/CarralegeDeLaCuisine.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045015813567014881
+		</id>
+		<published>2007-02-17T11:50:28.000Z
+		</published>
+		<updated>2007-06-05T21:58:00.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Fevrier 2007</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5045015813567014881' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/Fevrier2007' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045015813567014881' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045015813567014881/1181080680064982?tok=EQMTJ84rwRB33-SzY8nckuJ960M' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5045015813567014881</gphoto:id>
+		<gphoto:name>Fevrier2007</gphoto:name>
+		<gphoto:location>Augreilh</gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1171713028000</gphoto:timestamp>
+		<gphoto:numphotos>37</gphoto:numphotos>
+		<gphoto:numphotosremaining>463</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>5213299</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Fevrier 2007</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh5.ggpht.com/gdromard/RgN_Jx3j5-E/AAAAAAAAARc/afQ4H4lw1uI/Fevrier2007.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh5.ggpht.com/gdromard/RgN_Jx3j5-E/AAAAAAAAARc/afQ4H4lw1uI/s160-c/Fevrier2007.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+		<georss:where>
+			<gml:Point>
+				<gml:pos>43.752414 -0.605456</gml:pos>
+			</gml:Point>
+			<gml:Envelope>
+				<gml:lowerCorner>43.7496359 -0.6130859</gml:lowerCorner>
+				<gml:upperCorner>43.7551921 -0.5978261</gml:upperCorner>
+			</gml:Envelope>
+		</georss:where>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045016741279951425
+		</id>
+		<published>2007-01-05T19:55:30.000Z
+		</published>
+		<updated>2007-03-23T07:24:30.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Janvier 2007</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5045016741279951425' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/Janvier2007' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045016741279951425' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5045016741279951425/1174634670042877?tok=mP_ouYZQo2Ep8dN36BBG_SdZxhU' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5045016741279951425</gphoto:id>
+		<gphoto:name>Janvier2007</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1168026930000</gphoto:timestamp>
+		<gphoto:numphotos>62</gphoto:numphotos>
+		<gphoto:numphotosremaining>438</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>6906932</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Janvier 2007</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh5.ggpht.com/gdromard/RgN__x3j6kE/AAAAAAAAAZQ/DKzvwu3idU0/Janvier2007.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh5.ggpht.com/gdromard/RgN__x3j6kE/AAAAAAAAAZQ/DKzvwu3idU0/s160-c/Janvier2007.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016159585419063569
+		</id>
+		<published>2007-01-02T08:00:00.000Z
+		</published>
+		<updated>2007-06-05T21:58:00.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Talloires par temps d'orage</title>
+		<summary type='text'>Le 2 janvier 2007</summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5016159585419063569' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/TalloiresParTempsDOrage' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016159585419063569' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016159585419063569/1181080680138828?tok=YLuUkPVbNEptCeHKMiF-VrxvkSw' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5016159585419063569</gphoto:id>
+		<gphoto:name>TalloiresParTempsDOrage
+		</gphoto:name>
+		<gphoto:location>Talloires</gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1167724800000</gphoto:timestamp>
+		<gphoto:numphotos>4</gphoto:numphotos>
+		<gphoto:numphotosremaining>496</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>2790240</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Talloires par temps d'orage
+			</media:title>
+			<media:description type='plain'>Le 2 janvier 2007
+			</media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/RZz6kPGS8RE/AAAAAAAABHk/IvqjtZtb6yk/TalloiresParTempsDOrage.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/RZz6kPGS8RE/AAAAAAAABHk/IvqjtZtb6yk/s160-c/TalloiresParTempsDOrage.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+		<georss:where>
+			<gml:Point>
+				<gml:pos>45.839542 6.214659999999999</gml:pos>
+			</gml:Point>
+			<gml:Envelope>
+				<gml:lowerCorner>45.8095579 6.154130299999999
+				</gml:lowerCorner>
+				<gml:upperCorner>45.8695261 6.275189699999999
+				</gml:upperCorner>
+			</gml:Envelope>
+		</georss:where>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016161303405982049
+		</id>
+		<published>2006-12-31T19:07:01.000Z
+		</published>
+		<updated>2007-06-05T21:58:00.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>1er de l'an</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5016161303405982049' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/1erDeLAn' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016161303405982049' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016161303405982049/1181080680195602?tok=Ql3lo1RtzayRZ07MYqvuKd64cJM' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5016161303405982049</gphoto:id>
+		<gphoto:name>1erDeLAn</gphoto:name>
+		<gphoto:location>Chambery</gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1167592021000</gphoto:timestamp>
+		<gphoto:numphotos>8</gphoto:numphotos>
+		<gphoto:numphotosremaining>492</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>7474495</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>1er de l'an</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/RZz8IPGS8WE/AAAAAAAABIo/mOH6p9b8HpQ/1erDeLAn.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/RZz8IPGS8WE/AAAAAAAABIo/mOH6p9b8HpQ/s160-c/1erDeLAn.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+		<georss:where>
+			<gml:Point>
+				<gml:pos>45.566704 5.920987</gml:pos>
+			</gml:Point>
+			<gml:Envelope>
+				<gml:lowerCorner>45.53251315 5.8859143000000005
+				</gml:lowerCorner>
+				<gml:upperCorner>45.60089485 5.9560597</gml:upperCorner>
+			</gml:Envelope>
+		</georss:where>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016162037845389809
+		</id>
+		<published>2006-12-30T12:18:22.000Z
+		</published>
+		<updated>2007-06-05T21:58:00.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Cache -cache dans les sapins</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5016162037845389809' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/CacheCacheDansLesSapins' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016162037845389809' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016162037845389809/1181080680238016?tok=_vR88Qg9fA04wKWvTH153Dd3gEs' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5016162037845389809</gphoto:id>
+		<gphoto:name>CacheCacheDansLesSapins
+		</gphoto:name>
+		<gphoto:location>Taloire</gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1167481102000</gphoto:timestamp>
+		<gphoto:numphotos>5</gphoto:numphotos>
+		<gphoto:numphotosremaining>495</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>3071748</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Cache -cache dans les sapins
+			</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh5.ggpht.com/gdromard/RZz8y_GS8fE/AAAAAAAABJU/GtHprZWmfhU/CacheCacheDansLesSapins.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh5.ggpht.com/gdromard/RZz8y_GS8fE/AAAAAAAABJU/GtHprZWmfhU/s160-c/CacheCacheDansLesSapins.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+		<georss:where>
+			<gml:Point>
+				<gml:pos>43.821174 6.447213</gml:pos>
+			</gml:Point>
+		</georss:where>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016172332881999937
+		</id>
+		<published>2006-12-29T12:24:21.000Z
+		</published>
+		<updated>2007-06-05T21:58:00.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Petit tour à Megeve</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5016172332881999937' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/PetitTourMegeve' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016172332881999937' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016172332881999937/1181080680266018?tok=-lU1v5ePUfooNGfqsCg6R2HvLbk' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5016172332881999937</gphoto:id>
+		<gphoto:name>PetitTourMegeve</gphoto:name>
+		<gphoto:location>Megeve</gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1167395061000</gphoto:timestamp>
+		<gphoto:numphotos>10</gphoto:numphotos>
+		<gphoto:numphotosremaining>490</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>7632943</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Petit tour à Megeve</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh3.ggpht.com/gdromard/RZ0GKPGS-EE/AAAAAAAABWo/vI0TfTVakwA/PetitTourMegeve.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh3.ggpht.com/gdromard/RZ0GKPGS-EE/AAAAAAAABWo/vI0TfTVakwA/s160-c/PetitTourMegeve.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+		<georss:where>
+			<gml:Point>
+				<gml:pos>45.85684 6.61808</gml:pos>
+			</gml:Point>
+			<gml:Envelope>
+				<gml:lowerCorner>45.81728579999999 6.55992045
+				</gml:lowerCorner>
+				<gml:upperCorner>45.8963942 6.67623955</gml:upperCorner>
+			</gml:Envelope>
+		</georss:where>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016169596987830865
+		</id>
+		<published>2006-12-10T11:44:52.000Z
+		</published>
+		<updated>2007-06-05T21:58:00.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Talloires Photos des Schloss</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5016169596987830865' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/TalloiresPhotosDesSchloss' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016169596987830865' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5016169596987830865/1181080680313505?tok=Twg21GeajRRGHk-Fy1lHSzK7JWw' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5016169596987830865</gphoto:id>
+		<gphoto:name>TalloiresPhotosDesSchloss
+		</gphoto:name>
+		<gphoto:location>Talloires</gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1165751092000</gphoto:timestamp>
+		<gphoto:numphotos>94</gphoto:numphotos>
+		<gphoto:numphotosremaining>406</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>26555253</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Talloires Photos des Schloss
+			</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/RZ0Dq_GS8lE/AAAAAAAABVU/gZ3XpTZQ-b0/TalloiresPhotosDesSchloss.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/RZ0Dq_GS8lE/AAAAAAAABVU/gZ3XpTZQ-b0/s160-c/TalloiresPhotosDesSchloss.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+		<georss:where>
+			<gml:Point>
+				<gml:pos>45.839542 6.214659999999999</gml:pos>
+			</gml:Point>
+			<gml:Envelope>
+				<gml:lowerCorner>45.8095579 6.154130299999999
+				</gml:lowerCorner>
+				<gml:upperCorner>45.8695261 6.275189699999999
+				</gml:upperCorner>
+			</gml:Envelope>
+		</georss:where>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004574502921266833
+		</id>
+		<published>2006-12-03T08:42:00.000Z
+		</published>
+		<updated>2006-12-04T07:45:21.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>December 2006</title>
+		<summary type='text'>Gaetan essaye le bib seul !</summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5004574502921266833' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/December2006' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004574502921266833' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004574502921266833/1165218321000000?tok=3znSBZWOoXKL_ItoaXnPexa0FcI' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5004574502921266833</gphoto:id>
+		<gphoto:name>December2006</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1165135320000</gphoto:timestamp>
+		<gphoto:numphotos>4</gphoto:numphotos>
+		<gphoto:numphotosremaining>496</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>525778</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>December 2006</media:title>
+			<media:description type='plain'>Gaetan essaye le bib
+				seul !</media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/RXPR_rqZZpE/AAAAAAAABF8/PusK95hLswE/December2006.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/RXPR_rqZZpE/AAAAAAAABF8/PusK95hLswE/s160-c/December2006.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004574279582967249
+		</id>
+		<published>2006-11-19T17:12:03.000Z
+		</published>
+		<updated>2006-12-04T07:46:51.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Bapteme de Gaeten</title>
+		<summary type='text'></summary>
+		<rights type='text'>public</rights>
+		<link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5004574279582967249' />
+		<link rel='alternate' type='text/html'
+			href='http://picasaweb.google.com/gdromard/BaptemeDeGaeten' />
+		<link rel='self' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004574279582967249' />
+		<link rel='edit' type='application/atom+xml'
+			href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004574279582967249/1165218411000000?tok=M5YdPnLPwYtOgNtczg6r992IN2w' />
+		<author>
+			<name>Droms</name>
+			<uri>http://picasaweb.google.com/gdromard
+			</uri>
+		</author>
+		<gphoto:id>5004574279582967249</gphoto:id>
+		<gphoto:name>BaptemeDeGaeten</gphoto:name>
+		<gphoto:location></gphoto:location>
+		<gphoto:access>public</gphoto:access>
+		<gphoto:timestamp>1163956323000</gphoto:timestamp>
+		<gphoto:numphotos>11</gphoto:numphotos>
+		<gphoto:numphotosremaining>489</gphoto:numphotosremaining>
+		<gphoto:bytesUsed>1197510</gphoto:bytesUsed>
+		<gphoto:user>gdromard</gphoto:user>
+		<gphoto:nickname>Droms</gphoto:nickname>
+		<gphoto:commentingEnabled>true</gphoto:commentingEnabled>
+		<gphoto:commentCount>0</gphoto:commentCount>
+		<media:group>
+			<media:title type='plain'>Bapteme de Gaeten</media:title>
+			<media:description type='plain'></media:description>
+			<media:keywords></media:keywords>
+			<media:content
+				url='http://lh6.ggpht.com/gdromard/RXPRyrqZZdE/AAAAAAAABGE/f0-XdM-I76E/BaptemeDeGaeten.jpg'
+				type='image/jpeg' medium='image' />
+			<media:thumbnail
+				url='http://lh6.ggpht.com/gdromard/RXPRyrqZZdE/AAAAAAAABGE/f0-XdM-I76E/s160-c/BaptemeDeGaeten.jpg'
+				height='160' width='160' />
+			<media:credit>Droms</media:credit>
+		</media:group>
+	</entry>
+	<entry>
+		<id>
+			http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004572956733039857
+		</id>
+		<published>2006-11-18T16:51:10.000Z
+		</published>
+		<updated>2006-12-04T07:46:15.000Z</updated>
+		<category scheme='http://schemas.google.com/g/2005#kind'
+			term='http://schemas.google.com/photos/2007#album' />
+		<title type='text'>Cam &amp; Ben</title><summary type='text'>Oui je sais ... c'est un hors sujet  !</summary><rights type='text'>public</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5004572956733039857'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/CamBen'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004572956733039857'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004572956733039857/1165218375000000?tok=SqyPgqSkAEs8HbeAcuBdWn2_XHQ'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>5004572956733039857</gphoto:id><gphoto:name>CamBen</gphoto:name><gphoto:location></gphoto:location><gphoto:access>public</gphoto:access><gphoto:timestamp>1163868670000</gphoto:timestamp><gphoto:numphotos>13</gphoto:numphotos><gphoto:numphotosremaining>487</gphoto:numphotosremaining><gphoto:bytesUsed>1762460</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>Cam &amp; Ben</media:title><media:description type='plain'>Oui je sais ... c'est un hors sujet  !</media:description><media:keywords></media:keywords><media:content url='http://lh6.ggpht.com/gdromard/RXPQlrqZZPE/AAAAAAAABGA/gtY9jg5Kc0s/CamBen.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh6.ggpht.com/gdromard/RXPQlrqZZPE/AAAAAAAABGA/gtY9jg5Kc0s/s160-c/CamBen.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group></entry><entry><id>http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4994755212854427665</id><published>2006-11-07T08:00:00.000Z</published><updated>2006-11-13T20:56:59.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>Jehanne</title><summary type='text'></summary><rights type='text'>public</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/4994755212854427665'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/Jehanne'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4994755212854427665'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4994755212854427665/1163451419000000?tok=q8OvEZAt4FPHDh3-JitVCfl1CL4'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>4994755212854427665</gphoto:id><gphoto:name>Jehanne</gphoto:name><gphoto:location></gphoto:location><gphoto:access>public</gphoto:access><gphoto:timestamp>1162886400000</gphoto:timestamp><gphoto:numphotos>84</gphoto:numphotos><gphoto:numphotosremaining>416</gphoto:numphotosremaining><gphoto:bytesUsed>10974695</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>Jehanne</media:title><media:description type='plain'></media:description><media:keywords></media:keywords><media:content url='http://lh3.ggpht.com/gdromard/RVDvZxo4ABE/AAAAAAAABA4/s3zU9fIMgvY/Jehanne.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh3.ggpht.com/gdromard/RVDvZxo4ABE/AAAAAAAABA4/s3zU9fIMgvY/s160-c/Jehanne.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group></entry><entry><id>http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004572501466506353</id><published>2006-11-05T13:41:24.000Z</published><updated>2006-12-04T07:37:40.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>November 2006</title><summary type='text'></summary><rights type='text'>public</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5004572501466506353'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/November2006'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004572501466506353'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5004572501466506353/1165217860000000?tok=NlxOhjC5XJqtNgcwgne9fdtkq8I'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>5004572501466506353</gphoto:id><gphoto:name>November2006</gphoto:name><gphoto:location></gphoto:location><gphoto:access>public</gphoto:access><gphoto:timestamp>1162734084000</gphoto:timestamp><gphoto:numphotos>7</gphoto:numphotos><gphoto:numphotosremaining>493</gphoto:numphotosremaining><gphoto:bytesUsed>695732</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>November 2006</media:title><media:description type='plain'></media:description><media:keywords></media:keywords><media:content url='http://lh4.ggpht.com/gdromard/RXPQLLqZZHE/AAAAAAAABCQ/HsBYuYoMMe0/November2006.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh4.ggpht.com/gdromard/RXPQLLqZZHE/AAAAAAAABCQ/HsBYuYoMMe0/s160-c/November2006.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group></entry><entry><id>http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4994753835707596817</id><published>2006-11-04T08:00:00.000Z</published><updated>2006-11-07T20:43:12.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>Les premiers pas de Gaetan ...</title><summary type='text'></summary><rights type='text'>public</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/4994753835707596817'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/LesPremiersPasDeGaetan'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4994753835707596817'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4994753835707596817/1162932192000000?tok=T4VX0-0nbnslD7Hr1fVFrJpdAfQ'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>4994753835707596817</gphoto:id><gphoto:name>LesPremiersPasDeGaetan</gphoto:name><gphoto:location></gphoto:location><gphoto:access>public</gphoto:access><gphoto:timestamp>1162627200000</gphoto:timestamp><gphoto:numphotos>9</gphoto:numphotos><gphoto:numphotosremaining>491</gphoto:numphotosremaining><gphoto:bytesUsed>1022701</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>Les premiers pas de Gaetan ...</media:title><media:description type='plain'></media:description><media:keywords></media:keywords><media:content url='http://lh5.ggpht.com/gdromard/RVDuJnXfABE/AAAAAAAAA50/Vk1b471cY8k/LesPremiersPasDeGaetan.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh5.ggpht.com/gdromard/RVDuJnXfABE/AAAAAAAAA50/Vk1b471cY8k/s160-c/LesPremiersPasDeGaetan.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group></entry><entry><id>http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4993668717920714769</id><published>2006-11-02T18:23:56.000Z</published><updated>2007-06-05T21:58:00.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>La tousaint à Augreilh</title><summary type='text'></summary><rights type='text'>public</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/4993668717920714769'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/LaTousaintAugreilh'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4993668717920714769'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4993668717920714769/1181080680341810?tok=s6UvO3aT-Jw_AxzG-tC2Fbb8q30'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>4993668717920714769</gphoto:id><gphoto:name>LaTousaintAugreilh</gphoto:name><gphoto:location>Augreilh</gphoto:location><gphoto:access>public</gphoto:access><gphoto:timestamp>1162491836000</gphoto:timestamp><gphoto:numphotos>30</gphoto:numphotos><gphoto:numphotosremaining>470</gphoto:numphotosremaining><gphoto:bytesUsed>4311473</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>La tousaint à Augreilh</media:title><media:description type='plain'></media:description><media:keywords></media:keywords><media:content url='http://lh3.ggpht.com/gdromard/RU0TPcmlABE/AAAAAAAAAzs/bTTTcG5Z7Zs/LaTousaintAugreilh.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh3.ggpht.com/gdromard/RU0TPcmlABE/AAAAAAAAAzs/bTTTcG5Z7Zs/s160-c/LaTousaintAugreilh.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group><georss:where><gml:Point><gml:pos>43.752414 -0.605456</gml:pos></gml:Point><gml:Envelope><gml:lowerCorner>43.7496359 -0.6130859</gml:lowerCorner><gml:upperCorner>43.7551921 -0.5978261</gml:upperCorner></gml:Envelope></georss:where></entry><entry><id>http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4994754329344409617</id><published>2006-10-21T07:00:00.000Z</published><updated>2006-11-07T20:43:28.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>Octobre 2006</title><summary type='text'></summary><rights type='text'>public</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/4994754329344409617'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/Octobre2006'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4994754329344409617'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4994754329344409617/1162932208000000?tok=ib096BI-Lqbn3-g3PbWG57Ib0Rc'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>4994754329344409617</gphoto:id><gphoto:name>Octobre2006</gphoto:name><gphoto:location></gphoto:location><gphoto:access>public</gphoto:access><gphoto:timestamp>1161414000000</gphoto:timestamp><gphoto:numphotos>16</gphoto:numphotos><gphoto:numphotosremaining>484</gphoto:numphotosremaining><gphoto:bytesUsed>2078814</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>Octobre 2006</media:title><media:description type='plain'></media:description><media:keywords></media:keywords><media:content url='http://lh4.ggpht.com/gdromard/RVDumWTrABE/AAAAAAAAA78/vaXODStwUkA/Octobre2006.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh4.ggpht.com/gdromard/RVDumWTrABE/AAAAAAAAA78/vaXODStwUkA/s160-c/Octobre2006.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group></entry><entry><id>http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4981979919646588945</id><published>2006-10-04T07:00:00.000Z</published><updated>2006-10-04T12:11:46.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>Kiosque</title><summary type='text'></summary><rights type='text'>private</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/4981979919646588945?authkey=4lLNaFL0AWM'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/Kiosque?authkey=4lLNaFL0AWM'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4981979919646588945?authkey=4lLNaFL0AWM'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4981979919646588945/1159963906000000?tok=UqNUcQMVhGD8s6zf1pJ7VCqSPBU&amp;authkey=4lLNaFL0AWM'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>4981979919646588945</gphoto:id><gphoto:name>Kiosque</gphoto:name><gphoto:location></gphoto:location><gphoto:access>private</gphoto:access><gphoto:timestamp>1159945200000</gphoto:timestamp><gphoto:numphotos>118</gphoto:numphotos><gphoto:numphotosremaining>382</gphoto:numphotosremaining><gphoto:bytesUsed>24394469</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>Kiosque</media:title><media:description type='plain'></media:description><media:keywords></media:keywords><media:content url='http://lh4.ggpht.com/gdromard/RSOMV1yqABE/AAAAAAAAAQA/P1TznSJ1DZ0/Kiosque.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh4.ggpht.com/gdromard/RSOMV1yqABE/AAAAAAAAAQA/P1TznSJ1DZ0/s160-c/Kiosque.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group></entry><entry><id>http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4982147743352619025</id><published>2006-10-04T07:00:00.000Z</published><updated>2006-11-07T20:50:38.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>Eté 2006</title><summary type='text'></summary><rights type='text'>public</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/4982147743352619025'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/Et2006'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4982147743352619025'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4982147743352619025/1162932638000000?tok=ilT1VUxx0c7GsQ81YVw_ATjvZOw'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>4982147743352619025</gphoto:id><gphoto:name>Et2006</gphoto:name><gphoto:location></gphoto:location><gphoto:access>public</gphoto:access><gphoto:timestamp>1159945200000</gphoto:timestamp><gphoto:numphotos>46</gphoto:numphotos><gphoto:numphotosremaining>454</gphoto:numphotosremaining><gphoto:bytesUsed>26238266</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>Eté 2006</media:title><media:description type='plain'></media:description><media:keywords></media:keywords><media:content url='http://lh5.ggpht.com/gdromard/RSQk-d0MABE/AAAAAAAABAw/MvgmUI8_AXA/Et2006.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh5.ggpht.com/gdromard/RSQk-d0MABE/AAAAAAAABAw/MvgmUI8_AXA/s160-c/Et2006.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group></entry><entry><id>http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4993669436227321873</id><published>2006-09-16T18:51:17.000Z</published><updated>2006-11-04T22:29:11.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>Septembre 2006</title><summary type='text'></summary><rights type='text'>public</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/4993669436227321873'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/Septembre2006'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4993669436227321873'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4993669436227321873/1162679351000000?tok=vIJHGjp6cJVUcLA2NKfJIlvTnvo'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>4993669436227321873</gphoto:id><gphoto:name>Septembre2006</gphoto:name><gphoto:location></gphoto:location><gphoto:access>public</gphoto:access><gphoto:timestamp>1158432677000</gphoto:timestamp><gphoto:numphotos>38</gphoto:numphotos><gphoto:numphotosremaining>462</gphoto:numphotosremaining><gphoto:bytesUsed>4776387</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>Septembre 2006</media:title><media:description type='plain'></media:description><media:keywords></media:keywords><media:content url='http://lh4.ggpht.com/gdromard/RU0T5QgOABE/AAAAAAAAA4o/QIAe8S9J4B8/Septembre2006.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh4.ggpht.com/gdromard/RU0T5QgOABE/AAAAAAAAA4o/QIAe8S9J4B8/s160-c/Septembre2006.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group></entry><entry><id>http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4982150963268354065</id><published>2005-10-16T19:25:47.000Z</published><updated>2006-10-04T21:33:35.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>Talloires 2006</title><summary type='text'></summary><rights type='text'>public</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/4982150963268354065'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/Talloires2006'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4982150963268354065'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4982150963268354065/1159997615000000?tok=K6Pn2KkY4El53oORz7g7nyPa8k4'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>4982150963268354065</gphoto:id><gphoto:name>Talloires2006</gphoto:name><gphoto:location></gphoto:location><gphoto:access>public</gphoto:access><gphoto:timestamp>1129490747000</gphoto:timestamp><gphoto:numphotos>48</gphoto:numphotos><gphoto:numphotosremaining>452</gphoto:numphotosremaining><gphoto:bytesUsed>13314088</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>Talloires 2006</media:title><media:description type='plain'></media:description><media:keywords></media:keywords><media:content url='http://lh6.ggpht.com/gdromard/RSQn5477ABE/AAAAAAAAAWI/4pPfjL4irlY/Talloires2006.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh6.ggpht.com/gdromard/RSQn5477ABE/AAAAAAAAAWI/4pPfjL4irlY/s160-c/Talloires2006.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group></entry><entry><id>http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4991034214669418513</id><published>2005-09-06T07:00:00.000Z</published><updated>2006-11-07T20:48:52.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>WE en famille</title><summary type='text'></summary><rights type='text'>public</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/4991034214669418513'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/WEEnFamille'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4991034214669418513'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/4991034214669418513/1162932532000000?tok=hAhWFLpy44VnO3nEGsznvLflxMM'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>4991034214669418513</gphoto:id><gphoto:name>WEEnFamille</gphoto:name><gphoto:location></gphoto:location><gphoto:access>public</gphoto:access><gphoto:timestamp>1125990000000</gphoto:timestamp><gphoto:numphotos>66</gphoto:numphotos><gphoto:numphotosremaining>434</gphoto:numphotosremaining><gphoto:bytesUsed>10958687</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>WE en famille</media:title><media:description type='plain'></media:description><media:keywords></media:keywords><media:content url='http://lh4.ggpht.com/gdromard/RUO3LLMxABE/AAAAAAAAA-k/g1tzt9flxcw/WEEnFamille.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh4.ggpht.com/gdromard/RUO3LLMxABE/AAAAAAAAA-k/g1tzt9flxcw/s160-c/WEEnFamille.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group></entry><entry><id>http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5026149660040568817</id><published>1999-04-04T00:27:34.000Z</published><updated>2007-01-31T11:14:01.000Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>Wallpapers</title><summary type='text'></summary><rights type='text'>public</rights><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://picasaweb.google.com/data/feed/api/user/gdromard/albumid/5026149660040568817'/><link rel='alternate' type='text/html' href='http://picasaweb.google.com/gdromard/Wallpapers'/><link rel='self' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5026149660040568817'/><link rel='edit' type='application/atom+xml' href='http://picasaweb.google.com/data/entry/api/user/gdromard/albumid/5026149660040568817/1170242041000000?tok=6HVRg94SV1DmTs8cY59LWI0mkj4'/><author><name>Droms</name><uri>http://picasaweb.google.com/gdromard</uri></author><gphoto:id>5026149660040568817</gphoto:id><gphoto:name>Wallpapers</gphoto:name><gphoto:location></gphoto:location><gphoto:access>public</gphoto:access><gphoto:timestamp>923185654000</gphoto:timestamp><gphoto:numphotos>27</gphoto:numphotos><gphoto:numphotosremaining>473</gphoto:numphotosremaining><gphoto:bytesUsed>9283791</gphoto:bytesUsed><gphoto:user>gdromard</gphoto:user><gphoto:nickname>Droms</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:title type='plain'>Wallpapers</media:title><media:description type='plain'></media:description><media:keywords></media:keywords><media:content url='http://lh3.ggpht.com/gdromard/RcB4fHKrH_E/AAAAAAAAAFg/pJ9PnI4t4aM/Wallpapers.jpg' type='image/jpeg' medium='image'/><media:thumbnail url='http://lh3.ggpht.com/gdromard/RcB4fHKrH_E/AAAAAAAAAFg/pJ9PnI4t4aM/s160-c/Wallpapers.jpg' height='160' width='160'/><media:credit>Droms</media:credit></media:group></entry></feed>
