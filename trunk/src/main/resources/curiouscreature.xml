@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en" xml:base="http://www.curious-creature.org/wp-atom.php">
+	<title type="text">Curious Creature</title>
+	<subtitle type="text">Critters and monsters most welcome
+	</subtitle>
+	<updated>2008-09-01T05:16:03Z</updated>
+	<generator uri="http://wordpress.org/" version="2.6">WordPress
+	</generator>
+	<link rel="alternate" type="text/html" href="http://www.curious-creature.org" />
+	<id>http://www.curious-creature.org/feed/atom/
+	</id>
+	<link rel="self" type="application/atom+xml" href="http://www.curious-creature.org/feed/atom/" />
+	<entry>
+		<author>
+			<name>Romain Guy</name>
+			<uri>http://www.curious-creature.org
+			</uri>
+		</author>
+		<title type="html"><![CDATA[Fisherman&#8217;s Wharf]]></title>
+		<link rel="alternate" type="text/html"
+			href="http://www.curious-creature.org/2008/08/31/fishermans-wharf/" />
+		<id>http://www.curious-creature.org/?p=431
+		</id>
+		<updated>2008-09-01T05:16:03Z</updated>
+		<published>2008-09-01T05:16:03Z</published>
+		<category scheme="http://www.curious-creature.org" term="Photos" />
+		<summary type="html"><![CDATA[<img src="http://static.flickr.com/3012/2815957941_90be7759db_s.jpg" alt="Fisherman's Wharf" class="UserImage" />
+]]></summary>
+		<content type="html"
+			xml:base="http://www.curious-creature.org/2008/08/31/fishermans-wharf/"><![CDATA[<p>
+
+<div style="text-align: center;"><a href="http://www.flickr.com/photos/romainguy/2815957941/" title="Fisherman's Wharf"><img src="http://static.flickr.com/3012/2815957941_90be7759db_b.jpg" alt="Fisherman's Wharf" class="UserImage" /></a></div></p>
+]]></content>
+		<link rel="replies" type="text/html"
+			href="http://www.curious-creature.org/2008/08/31/fishermans-wharf/#comments"
+			thr:count="11" />
+		<link rel="replies" type="application/atom+xml"
+			href="http://www.curious-creature.org/2008/08/31/fishermans-wharf/feed/atom/"
+			thr:count="11" />
+		<thr:total>11</thr:total>
+	</entry>
+	<entry>
+		<author>
+			<name>Romain Guy</name>
+			<uri>http://www.curious-creature.org
+			</uri>
+		</author>
+		<title type="html"><![CDATA[New Android SDK]]></title>
+		<link rel="alternate" type="text/html"
+			href="http://www.curious-creature.org/2008/08/18/new-android-sdk/" />
+		<id>http://www.curious-creature.org/?p=429
+		</id>
+		<updated>2008-08-19T01:41:09Z</updated>
+		<published>2008-08-19T01:41:09Z</published>
+		<category scheme="http://www.curious-creature.org" term="Android" />
+		<summary type="html"><![CDATA[After months of hard work, I am pleased to see our latest Android SDK publicly available. There are tons of new stuff for you to play with!
+]]></summary>
+		<content type="html"
+			xml:base="http://www.curious-creature.org/2008/08/18/new-android-sdk/"><![CDATA[<p>After months of hard work, I am pleased to see our <a href="http://android-developers.blogspot.com/2008/08/announcing-beta-release-of-android-sdk.html">latest Android SDK publicly available</a>. There are tons of new stuff for you to play with!</p>
+]]></content>
+		<link rel="replies" type="text/html"
+			href="http://www.curious-creature.org/2008/08/18/new-android-sdk/#comments"
+			thr:count="7" />
+		<link rel="replies" type="application/atom+xml"
+			href="http://www.curious-creature.org/2008/08/18/new-android-sdk/feed/atom/"
+			thr:count="7" />
+		<thr:total>7</thr:total>
+	</entry>
+	<entry>
+		<author>
+			<name>Romain Guy</name>
+			<uri>http://www.curious-creature.org
+			</uri>
+		</author>
+		<title type="html"><![CDATA[Still Alive]]></title>
+		<link rel="alternate" type="text/html"
+			href="http://www.curious-creature.org/2008/08/11/still-alive/" />
+		<id>http://www.curious-creature.org/?p=427
+		</id>
+		<updated>2008-08-12T05:17:43Z</updated>
+		<published>2008-08-12T05:17:43Z</published>
+		<category scheme="http://www.curious-creature.org" term="Android" />
+		<category scheme="http://www.curious-creature.org" term="General" />
+		<category scheme="http://www.curious-creature.org" term="Java" />
+		<summary type="html"><![CDATA[Android is still eating away all of my spare time but I really hope to be able to blog again very soon.
+]]></summary>
+		<content type="html"
+			xml:base="http://www.curious-creature.org/2008/08/11/still-alive/"><![CDATA[<p>Android is still eating away all of my spare time but I really hope to be able to blog again very soon.</p>
+]]></content>
+		<link rel="replies" type="text/html"
+			href="http://www.curious-creature.org/2008/08/11/still-alive/#comments"
+			thr:count="3" />
+		<link rel="replies" type="application/atom+xml"
+			href="http://www.curious-creature.org/2008/08/11/still-alive/feed/atom/"
+			thr:count="3" />
+		<thr:total>3</thr:total>
+	</entry>
+	<entry>
+		<author>
+			<name>Romain Guy</name>
+			<uri>http://www.curious-creature.org
+			</uri>
+		</author>
+		<title type="html"><![CDATA[Thirsty]]></title>
+		<link rel="alternate" type="text/html"
+			href="http://www.curious-creature.org/2008/08/02/thirsty/" />
+		<id>http://www.curious-creature.org/?p=424
+		</id>
+		<updated>2008-08-03T06:33:04Z</updated>
+		<published>2008-08-03T06:33:04Z</published>
+		<category scheme="http://www.curious-creature.org" term="Photos" />
+		<summary type="html"><![CDATA[<img src="http://static.flickr.com/3249/2727606540_0d413903bf_s.jpg" alt="Thirsty" class="UserImage" />
+
+]]></summary>
+		<content type="html"
+			xml:base="http://www.curious-creature.org/2008/08/02/thirsty/"><![CDATA[<p>
+
+<div style="text-align: center;"><a href="http://www.flickr.com/photos/romainguy/2727606540/" title="Thirsty"><img src="http://static.flickr.com/3249/2727606540_0d413903bf_b.jpg" alt="Thirsty" class="UserImage" /></a></div></p>
+]]></content>
+		<link rel="replies" type="text/html"
+			href="http://www.curious-creature.org/2008/08/02/thirsty/#comments"
+			thr:count="1" />
+		<link rel="replies" type="application/atom+xml"
+			href="http://www.curious-creature.org/2008/08/02/thirsty/feed/atom/"
+			thr:count="1" />
+		<thr:total>1</thr:total>
+	</entry>
+	<entry>
+		<author>
+			<name>Romain Guy</name>
+			<uri>http://www.curious-creature.org
+			</uri>
+		</author>
+		<title type="html"><![CDATA[Bay Bridge]]></title>
+		<link rel="alternate" type="text/html"
+			href="http://www.curious-creature.org/2008/07/27/bay-bridge/" />
+		<id>http://www.curious-creature.org/?p=421
+		</id>
+		<updated>2008-08-03T09:21:46Z</updated>
+		<published>2008-07-27T10:55:29Z</published>
+		<category scheme="http://www.curious-creature.org" term="Photos" />
+		<summary type="html"><![CDATA[<img src="http://static.flickr.com/3161/2705634741_40a07c02d1_s.jpg" alt="Bay Bridge" class="UserImage" />]]></summary>
+		<content type="html"
+			xml:base="http://www.curious-creature.org/2008/07/27/bay-bridge/"><![CDATA[<p>
+
+<div style="text-align: center;"><a href="http://www.flickr.com/photos/romainguy/2705634741/" title="Bay Bridge"><img src="http://farm4.static.flickr.com/3161/2705634741_40a07c02d1_b.jpg" alt="Bay Bridge" class="UserImage" /></a></div></p>
+]]></content>
+		<link rel="replies" type="text/html"
+			href="http://www.curious-creature.org/2008/07/27/bay-bridge/#comments"
+			thr:count="0" />
+		<link rel="replies" type="application/atom+xml"
+			href="http://www.curious-creature.org/2008/07/27/bay-bridge/feed/atom/"
+			thr:count="0" />
+		<thr:total>0</thr:total>
+	</entry>
+	<entry>
+		<author>
+			<name>Romain Guy</name>
+			<uri>http://www.curious-creature.org
+			</uri>
+		</author>
+		<title type="html"><![CDATA[Firey Sky]]></title>
+		<link rel="alternate" type="text/html"
+			href="http://www.curious-creature.org/2008/07/20/firey-sky/" />
+		<id>http://www.curious-creature.org/?p=419
+		</id>
+		<updated>2008-07-20T07:17:39Z</updated>
+		<published>2008-07-20T07:17:39Z</published>
+		<category scheme="http://www.curious-creature.org" term="Photos" />
+		<summary type="html"><![CDATA[<img src="http://static.flickr.com/2314/2684814440_5e8cd0305a_s.jpg" alt="Firey Sky" class="UserImage" />	
+
+]]></summary>
+		<content type="html"
+			xml:base="http://www.curious-creature.org/2008/07/20/firey-sky/"><![CDATA[<p>
+
+<div style="text-align: center;"><a href="http://www.flickr.com/photos/romainguy/2684814440/" title="Firey Sky"><img src="http://static.flickr.com/2314/2684814440_5e8cd0305a_b.jpg" alt="Firey Sky" class="UserImage" /></a></div></p>
+]]></content>
+		<link rel="replies" type="text/html"
+			href="http://www.curious-creature.org/2008/07/20/firey-sky/#comments"
+			thr:count="1" />
+		<link rel="replies" type="application/atom+xml"
+			href="http://www.curious-creature.org/2008/07/20/firey-sky/feed/atom/"
+			thr:count="1" />
+		<thr:total>1</thr:total>
+	</entry>
+	<entry>
+		<author>
+			<name>Romain Guy</name>
+			<uri>http://www.curious-creature.org
+			</uri>
+		</author>
+		<title type="html"><![CDATA[Golden Gate at Sunset]]></title>
+		<link rel="alternate" type="text/html"
+			href="http://www.curious-creature.org/2008/07/15/golden-gate-at-sunset/" />
+		<id>http://www.curious-creature.org/2008/07/15/golden-gate-at-sunset/
+		</id>
+		<updated>2008-07-15T07:13:51Z</updated>
+		<published>2008-07-15T07:00:58Z</published>
+		<category scheme="http://www.curious-creature.org" term="Photos" />
+		<summary type="html"><![CDATA[<img src="http://farm4.static.flickr.com/3039/2669948773_472f12f3d7_s.jpg" alt="Golden Sunset" class="UserImage" />]]></summary>
+		<content type="html"
+			xml:base="http://www.curious-creature.org/2008/07/15/golden-gate-at-sunset/"><![CDATA[<p><div style="text-align: center;"><a href="http://www.flickr.com/photos/romainguy/2669948773/" title="Golden Sunset"><img src="http://farm4.static.flickr.com/3039/2669948773_472f12f3d7_b.jpg" alt="Golden Sunset" class="UserImage" /></a></div></p>]]></content>
+		<link rel="replies" type="text/html"
+			href="http://www.curious-creature.org/2008/07/15/golden-gate-at-sunset/#comments"
+			thr:count="5" />
+		<link rel="replies" type="application/atom+xml"
+			href="http://www.curious-creature.org/2008/07/15/golden-gate-at-sunset/feed/atom/"
+			thr:count="5" />
+		<thr:total>5</thr:total>
+	</entry>
+	<entry>
+		<author>
+			<name>Romain Guy</name>
+			<uri>http://www.curious-creature.org
+			</uri>
+		</author>
+		<title type="html"><![CDATA[Despair]]></title>
+		<link rel="alternate" type="text/html"
+			href="http://www.curious-creature.org/2008/07/08/despair/" />
+		<id>http://www.curious-creature.org/2008/07/08/despair/
+		</id>
+		<updated>2008-07-09T06:12:01Z</updated>
+		<published>2008-07-09T06:12:01Z</published>
+		<category scheme="http://www.curious-creature.org" term="Photos" />
+		<summary type="html"><![CDATA[<img src="http://static.flickr.com/3173/2652312294_70afdb2385_s.jpg" alt="Despair" class="UserImage" />]]></summary>
+		<content type="html"
+			xml:base="http://www.curious-creature.org/2008/07/08/despair/"><![CDATA[<p><div style="text-align: center;"><a href="http://www.flickr.com/photos/romainguy/2652312294/" title="Despair"><img src="http://static.flickr.com/3173/2652312294_70afdb2385_b.jpg" alt="Despair" class="UserImage" /></a></div></p>]]></content>
+		<link rel="replies" type="text/html"
+			href="http://www.curious-creature.org/2008/07/08/despair/#comments"
+			thr:count="6" />
+		<link rel="replies" type="application/atom+xml"
+			href="http://www.curious-creature.org/2008/07/08/despair/feed/atom/"
+			thr:count="6" />
+		<thr:total>6</thr:total>
+	</entry>
+	<entry>
+		<author>
+			<name>Romain Guy</name>
+			<uri>http://www.curious-creature.org
+			</uri>
+		</author>
+		<title type="html"><![CDATA[The Path]]></title>
+		<link rel="alternate" type="text/html"
+			href="http://www.curious-creature.org/2008/07/06/the-path/" />
+		<id>http://www.curious-creature.org/2008/07/06/the-path/
+		</id>
+		<updated>2008-07-07T05:32:48Z</updated>
+		<published>2008-07-07T05:31:51Z</published>
+		<category scheme="http://www.curious-creature.org" term="Photos" />
+		<summary type="html"><![CDATA[<img src="http://static.flickr.com/3090/2640772523_b17a89225d_s.jpg" alt="The Path" class="UserImage" />]]></summary>
+		<content type="html"
+			xml:base="http://www.curious-creature.org/2008/07/06/the-path/"><![CDATA[<p><div style="text-align: center;"><a href="http://www.flickr.com/photos/romainguy/2640772523/" title="The Path"><img src="http://static.flickr.com/3090/2640772523_b17a89225d_b.jpg" alt="The Path" class="UserImage" /></a></div></p>]]></content>
+		<link rel="replies" type="text/html"
+			href="http://www.curious-creature.org/2008/07/06/the-path/#comments"
+			thr:count="0" />
+		<link rel="replies" type="application/atom+xml"
+			href="http://www.curious-creature.org/2008/07/06/the-path/feed/atom/"
+			thr:count="0" />
+		<thr:total>0</thr:total>
+	</entry>
+	<entry>
+		<author>
+			<name>Romain Guy</name>
+			<uri>http://www.curious-creature.org
+			</uri>
+		</author>
+		<title type="html"><![CDATA[Point Reyes]]></title>
+		<link rel="alternate" type="text/html"
+			href="http://www.curious-creature.org/2008/07/05/point-reyes/" />
+		<id>http://www.curious-creature.org/2008/07/05/point-reyes/
+		</id>
+		<updated>2008-07-07T05:51:17Z</updated>
+		<published>2008-07-06T06:49:57Z</published>
+		<category scheme="http://www.curious-creature.org" term="Photos" />
+		<summary type="html"><![CDATA[<img src="http://static.flickr.com/3040/2640771809_7d13573216_s.jpg" alt="Foggy Path" class="UserImage" />]]></summary>
+		<content type="html"
+			xml:base="http://www.curious-creature.org/2008/07/05/point-reyes/"><![CDATA[<p><a href="http://www.flickr.com/photos/romainguy/2640771809/" title="Foggy Path"><img src="http://static.flickr.com/3040/2640771809_7d13573216_b.jpg" alt="Foggy Path" class="UserImage" /></a></p>]]></content>
+		<link rel="replies" type="text/html"
+			href="http://www.curious-creature.org/2008/07/05/point-reyes/#comments"
+			thr:count="4" />
+		<link rel="replies" type="application/atom+xml"
+			href="http://www.curious-creature.org/2008/07/05/point-reyes/feed/atom/"
+			thr:count="4" />
+		<thr:total>4</thr:total>
+	</entry>
+</feed>
