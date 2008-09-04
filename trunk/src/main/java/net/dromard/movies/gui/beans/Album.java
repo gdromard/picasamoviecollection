@@ -1,11 +1,11 @@
-package net.dromard.movies.gui;
+package net.dromard.movies.gui.beans;
 
 import java.util.List;
 
 import net.dromard.common.xml.XmlMember;
 
-public class Domain extends XmlMember {
-	protected Domain() {
+public class Album extends XmlMember {
+	protected Album() {
 		super("domain");
 	}
 

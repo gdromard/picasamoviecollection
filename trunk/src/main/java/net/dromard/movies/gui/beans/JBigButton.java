@@ -1,8 +1,7 @@
-package net.dromard.movies.gui;
+package net.dromard.movies.gui.beans;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Container;
 import java.awt.Cursor;
 import java.awt.Dimension;
 import java.awt.Image;
@@ -22,7 +21,7 @@ import net.dromard.common.swing.JShadowPanel;
  * @author Gabriel Dromard
  */
 @SuppressWarnings("serial")
-public class BigButton extends JShadowPanel implements MouseListener, Runnable {
+public class JBigButton extends JShadowPanel implements MouseListener, Runnable {
     protected JImage thumbnail;
     protected Image tmp;
     protected JLabel label;
@@ -37,7 +36,7 @@ public class BigButton extends JShadowPanel implements MouseListener, Runnable {
      * @param icon The icon to be displayed in
      * @param text The button text.
      */
-    public BigButton(String text) {
+    public JBigButton(String text) {
         super(new BorderLayout(10, 10));
         background = new Color(255, 255, 255);
         foreground = getParent().getForeground();
@@ -69,7 +68,7 @@ public class BigButton extends JShadowPanel implements MouseListener, Runnable {
      * @param icon The icon to be displayed in
      * @param text The button text.
      */
-    public BigButton(final String text, final String imageResourceName) {
+    public JBigButton(final String text, final String imageResourceName) {
         this(text);
         this.imageResourceName = imageResourceName;
         new Thread(this).start();
@@ -81,24 +80,14 @@ public class BigButton extends JShadowPanel implements MouseListener, Runnable {
         }
     }
 
-    public void loadImageAsResource(String imageName) {
-        getParentFrame().setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
+    private void loadImageAsResource(String imageName) {
+        setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
         Image image = Util.loadImage(imageName);
         thumbnail = new JImage(image, Image.SCALE_SMOOTH);
         thumbnail.setOpaque(false);
         add(thumbnail, BorderLayout.CENTER);
         revalidate();
-        getParentFrame().setCursor(Cursor.getDefaultCursor());
-    }
-    
-    private Container getParentFrame() {
-    	Container cpt = getParent();
-    	while (cpt != null) {
-    		if (getParent() == null) return cpt;
-    		cpt = getParent();
-    	}
-    	//return PicasaMovieCollection.getInstance();
-    	return null;
+        setCursor(Cursor.getDefaultCursor());
     }
 
     /* ------------- MouseListerner implementation ------------- */

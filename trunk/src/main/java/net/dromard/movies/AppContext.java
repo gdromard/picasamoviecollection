@@ -21,10 +21,10 @@ public final class AppContext implements AppConstants {
 		AppConf conf = AppConf.getInstance();
 		this.pathImage = new File(conf.getProperty(KEY_PATH_IMAGE, "."));
 		System.out.println("[INFO] Images path: " + pathImage);
-		if (!pathImage.exists()) pathImage.mkdirs();
+		if (!pathImage.exists()) pathImage.mkdir();
 		this.pathTmp = new File(conf.getProperty(KEY_PATH_TMP, "."));
 		System.out.println("[INFO] Tmp path: " + pathTmp);
-		if (!pathTmp.exists()) pathImage.mkdirs();
+		if (!pathTmp.exists()) pathTmp.mkdir();
 		pathTmp.deleteOnExit();
 		this.proxyHost = conf.getProperty(KEY_PROXY_HOST, null);
 		this.proxyPort = conf.getProperty(KEY_PROXY_PORT, -1);
