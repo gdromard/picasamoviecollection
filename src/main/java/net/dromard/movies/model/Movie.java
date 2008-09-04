@@ -11,6 +11,7 @@ public class Movie {
     private long length;
     private String synopsis;
     private String imageLink;
+    private String thumbnailLink;
     private String format;
     private String version;
     private String quality;
@@ -109,6 +110,18 @@ public class Movie {
 	 */
 	public void setImageLink(String imageLink) {
 		this.imageLink = imageLink;
+	}
+	/**
+	 * @return the imageLink
+	 */
+	public String getThumbnailLink() {
+		return thumbnailLink;
+	}
+	/**
+	 * @param imageLink the imageLink to set
+	 */
+	public void setThumbnailLink(String thumbnailLink) {
+		this.thumbnailLink = thumbnailLink;
 	}
 	/**
 	 * @return the synopsis

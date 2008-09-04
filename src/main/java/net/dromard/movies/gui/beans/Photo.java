@@ -1,12 +1,12 @@
-package net.dromard.movies.gui;
+package net.dromard.movies.gui.beans;
 
 import java.util.List;
 
 import net.dromard.common.xml.XmlMember;
 
-public class Element extends XmlMember {
+public class Photo extends XmlMember {
 
-	protected Element() {
+	protected Photo() {
 		super("element");
 	}
 

@@ -25,6 +25,26 @@
 			<artifactId>dromard.common</artifactId>
 			<version>1.9</version>
 	    </dependency>
+	    <dependency>
+			<groupId>gdata</groupId>
+			<artifactId>gdata-core</artifactId>
+			<version>1.0</version>
+	    </dependency>
+	    <dependency>
+			<groupId>gdata</groupId>
+			<artifactId>gdata-media</artifactId>
+			<version>1.0</version>
+	    </dependency>
+	    <dependency>
+			<groupId>gdata</groupId>
+			<artifactId>gdata-photos</artifactId>
+			<version>1.0</version>
+	    </dependency>
+	    <dependency>
+			<groupId>gdata</groupId>
+			<artifactId>gdata-photos-meta</artifactId>
+			<version>1.0</version>
+	    </dependency>
 	</dependencies>
 	<repositories>
 		<repository>

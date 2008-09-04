@@ -7,7 +7,7 @@ import java.awt.Font;
 import java.awt.Image;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
-import java.util.Hashtable;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -16,7 +16,6 @@ import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import javax.swing.SwingUtilities;
 
 import net.dromard.common.Util;
 import net.dromard.common.swing.CellFlowLayout;
@@ -28,14 +27,17 @@ import net.dromard.common.swing.JImage;
 import net.dromard.common.xml.XmlMember;
 import net.dromard.movies.AppConf;
 import net.dromard.movies.AppConstants;
+import net.dromard.movies.gui.beans.Album;
+import net.dromard.movies.gui.beans.JMainPanel;
+import net.dromard.movies.gui.beans.Photo;
+import net.dromard.movies.gui.search.JMovieCoverSearch;
 import net.dromard.movies.gui.xml.ElementImage;
 
 public class JApplicationPane extends JPanel implements AppConstants {
 	private static final long serialVersionUID = 5243500740199674848L;
 	
 	protected JCustomBar bar = new JCustomBar();
-	protected JPanel mainPanel = new JPanel(new BorderLayout());
-	private Hashtable<String, JPanel> panels = new Hashtable<String, JPanel>();
+	protected JPanel mainPanelContainer = new JPanel(new BorderLayout());
 	
 	/**
 	 * Application constructor.
@@ -59,17 +61,17 @@ public class JApplicationPane extends JPanel implements AppConstants {
 		setForeground(fg);
 		setFont(ft);
 		
-		mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-		mainPanel.setBackground(bg);
-		mainPanel.setForeground(fg);
-		mainPanel.setFont(ft);
+		mainPanelContainer.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+		mainPanelContainer.setBackground(bg);
+		mainPanelContainer.setForeground(fg);
+		mainPanelContainer.setFont(ft);
 		add(header(), BorderLayout.NORTH);
-		//setContent(root);
-        JScrollPane scrollPane = new JScrollPane(mainPanel);
+        JScrollPane scrollPane = new JScrollPane(mainPanelContainer);
         scrollPane.setOpaque(false);
         scrollPane.setBorder(BorderFactory.createEmptyBorder());
 		add(scrollPane, BorderLayout.CENTER);
 		setPreferredSize(AppConf.getInstance().getPropertyAsDimension(KEY_APPLICATION_SIZE));
+		register(new JMovieCoverSearch());
 	}
 
 	private Color getDefaultForeground() {
@@ -86,7 +88,7 @@ public class JApplicationPane extends JPanel implements AppConstants {
 	 * @throws IOException If an error occured while accessing the properties file.
 	 */
 	public JComponent header() {
-		final JCachedPanel panel = new JCachedPanel(new BorderLayout());
+		final JPanel panel = new JCachedPanel(new BorderLayout());
         // Titles
         Color bg = AppConf.getInstance().getPropertyAsColor(KEY_APPLICATION_HEADER_BGCOLOR);
         Color fg = AppConf.getInstance().getPropertyAsColor(KEY_APPLICATION_HEADER_FGCOLOR);
@@ -138,64 +140,36 @@ public class JApplicationPane extends JPanel implements AppConstants {
 	
 	@SuppressWarnings("serial")
 	private class MyButtonBar extends JCustomBar.CustomBarButton {
-		private Domain domain;
+		private JMainPanel panel;
 		
-		public MyButtonBar(Domain domain, JCustomBar parent) {
-			super(parent, domain.getName());
-			this.domain = domain;
+		public MyButtonBar(String btnName, JMainPanel panel, JCustomBar parent) {
+			super(parent, btnName);
+			this.panel = panel;
 		}
 
 		@Override
 		public void mouseReleased(MouseEvent evt) {
 			bar.removeButtonsIncludingMe(this);
-			setContent(domain);
-		}
-	}
-	
-	/* ------------------------- Buttons ------------------------- */
-	
-	@SuppressWarnings("serial")
-	private class DomainButton extends BigButton {
-		protected Domain domain;
-		
-		public DomainButton(Domain domain) {
-            super(domain.getName(), domain.getIcon());
-			this.domain = domain;
 		}
 
-        @Override
-		public void mouseReleased(MouseEvent evt) {
-        	super.mouseReleased(evt);
-			setContent(domain);
+		@Override
+		protected void fireRemoved() {
+			super.fireRemoved();
+			unregister(panel);
 		}
 	}
 	
 	@SuppressWarnings("serial")
-	private class ElementButton extends BigButton {
-		protected Element element;
-		
-		public ElementButton(Element element) {
-			super("n°" + element.getReference(), element.getIcon());
-			this.element = element;
-		}
-
-        @Override
-		public void mouseReleased(MouseEvent evt) {
-        	super.mouseReleased(evt);
-			setContent(element);
-		}
-	}
-	
-	@SuppressWarnings("serial")
-	private class ImageSlider extends JPanel {
-		protected Element element;
+	private class ImageSlider extends JMainPanel {
+		protected Photo photo;
 		protected int currentImage = 0;
-		public ImageSlider(Element element) {
-			super(new BorderLayout(10, 10));
-			this.element = element;
+		public ImageSlider(Photo photo) {
+			super("Photos");
+			setLayout(new BorderLayout(10, 10));
+			this.photo = photo;
 
 			setOpaque(false);
-			List<XmlMember> childs = element.getChilds();
+			List<XmlMember> childs = photo.getChilds();
 			if (childs.size() > 0) {
 				XmlMember child = childs.get(currentImage);
 				if (child instanceof ElementImage) {
@@ -213,21 +187,22 @@ public class JApplicationPane extends JPanel implements AppConstants {
 	 * This panel handle the display of element's childs (Domain and Element).
 	 */
 	@SuppressWarnings("serial")
-	private class DomainPanel extends JPanel {
-		Domain domain;
+	private class AlbumPanel extends JMainPanel {
+		Album album;
 		
-		public DomainPanel(Domain domain) {
-			super(new CellFlowLayout(10, 10));
-			this.domain = domain;
+		public AlbumPanel(Album album) {
+			super("Album");
+			setLayout(new CellFlowLayout(10, 10));
+			this.album = album;
 			
 			setOpaque(false);
-			List<XmlMember> childs = domain.getChilds();
+			List<XmlMember> childs = album.getChilds();
 			for(int i=0; i<childs.size(); ++i) {
 				XmlMember child = childs.get(i);
-				if (child instanceof Domain) {
-					add(new DomainButton((Domain) child));
-				} else if(child instanceof Element) {
-					add(new ElementButton((Element) child));
+				if (child instanceof Album) {
+					//add(new AlbumButton((Album) child));
+				} else if(child instanceof Photo) {
+					//add(new PhotoButton((Photo) child));
 				}
 			}
 		}
@@ -238,18 +213,18 @@ public class JApplicationPane extends JPanel implements AppConstants {
 	 */
 	@SuppressWarnings("serial")
 	private class ElementPanel extends JPanel {
-		Element element;
+		Photo photo;
 		
-		public ElementPanel(Element element) {
+		public ElementPanel(Photo photo) {
 			super(new BorderLayout(10, 10));
-			this.element = element;
+			this.photo = photo;
 			setOpaque(false);
 			JForm elementDetails = new JForm(10, 10);
 			elementDetails.setOpaque(false);
-			Iterator<String> it = element.getAttributes().keySet().iterator();
+			Iterator<String> it = photo.getAttributes().keySet().iterator();
 			while(it.hasNext()) {
 				String key = (String) it.next();
-				String value = element.getAttribute(key);
+				String value = photo.getAttribute(key);
 				String localizedKey = AppConf.getInstance().getProperty("application.attributes."+key);
 				if (localizedKey != null) key = localizedKey;
                 JLabel k = new JLabel(key);
@@ -260,63 +235,51 @@ public class JApplicationPane extends JPanel implements AppConstants {
 				v.setForeground(getDefaultForeground());
 				elementDetails.addLine(k, v, null);
 			}
-			if (element.getText() != null) {
-				JLabel v = new JLabel(element.getText());
+			if (photo.getText() != null) {
+				JLabel v = new JLabel(photo.getText());
 				v.setFont(getDefaultFont());
 				v.setForeground(getDefaultForeground());
 				elementDetails.addLine(new JLabel(""), v, null);
 			}
 			add(elementDetails, BorderLayout.NORTH);
-			add(new ImageSlider(element), BorderLayout.CENTER);
+			add(new ImageSlider(photo), BorderLayout.CENTER);
 		}
 	}
 	
 	/* ------------------------- Set Content ------------------------- */
+
+	List<JMainPanel> mainPanels = new ArrayList<JMainPanel>();
 	
-    protected boolean isCached(String key) {
-		if (panels.containsKey(key)) {
-			setContent(panels.get(key));
-			return true;
+	/**
+	 * Set inner content of the application using the given panel.
+	 * @param mainPanel The panel to be displayed into application.
+	 */
+    public void register(JMainPanel mainPanel) {
+		bar.addButton(new MyButtonBar(mainPanel.getName(), mainPanel, bar));
+		mainPanelContainer.removeAll();
+		mainPanelContainer.add(mainPanel, BorderLayout.CENTER);
+		if (!mainPanels.contains(mainPanel)) {
+			mainPanels.add(mainPanel);
 		}
-		return false;
+		//content.revalidate();
+		//SwingUtilities.updateComponentTreeUI(mainPanelContainer);
 	}
 
-	protected void addContent(JPanel panel, String key) {
-		if (!isCached(key)) {
-			panels.put(key, panel);
-			setContent(panel);
-		}
-	}
-	
 	/**
 	 * Set inner content of the application using the given panel.
 	 * @param content The panel to be displayed into application.
 	 */
-    protected void setContent(JPanel content) {
-		mainPanel.removeAll();
-		mainPanel.add(content, BorderLayout.CENTER);
+    public void unregister(JMainPanel mainPanel) {
+		bar.addButton(new MyButtonBar(mainPanel.getName(), mainPanel, bar));
+		mainPanelContainer.removeAll();
+		mainPanelContainer.add(mainPanel, BorderLayout.CENTER);
+		int index = mainPanels.indexOf(mainPanel);
+		while (mainPanels.size() >= index) {
+			mainPanel.remove(index);
+		}
+		register(mainPanels.get(mainPanels.size() - 1));
+		//maiPanels.removeElementAt()
 		//content.revalidate();
-		SwingUtilities.updateComponentTreeUI(mainPanel);
-	}
-	
-	/**
-	 * Set inner content of tha application using the given element.
-	 * @param element The element to be displayed into application.
-	 */
-	protected void setContent(Domain domain) {
-		bar.addButton(new MyButtonBar(domain, bar));
-		if (!isCached(""+domain.toString().hashCode())) {
-			addContent(new DomainPanel(domain), ""+domain.toString().hashCode());
-		}
-	}
-	
-	/**
-	 * Set inner content of tha application using the given element.
-	 * @param element The element to be displayed into application.
-	 */
-    protected void setContent(Element element) {
-		if (!isCached(""+element.toString().hashCode())) {
-			addContent(new ElementPanel(element), ""+element.toString().hashCode());
-		}
+		//SwingUtilities.updateComponentTreeUI(mainPanelContainer);
 	}
 }

@@ -2,15 +2,18 @@ package net.dromard.movies.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.FlowLayout;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
 
 import net.dromard.common.Util;
 import net.dromard.movies.AppConf;
 import net.dromard.movies.AppConstants;
+import net.dromard.common.swing.InfiniteProgressPanel;
 import net.dromard.common.swing.JSplashScreen;
 
 
@@ -24,8 +27,8 @@ public class PicasaMovieCollection implements AppConstants {
 	/** Singleton instance. */
 	private static PicasaMovieCollection application = new PicasaMovieCollection();
 	private JFrame mainFrame;
-	private JApplicationPane mainPanel;
-	
+	private JApplicationPane applicationPane;
+
 	/** Retrieve instance. */
 	public static PicasaMovieCollection getInstance() {
 		return application;
@@ -36,6 +39,13 @@ public class PicasaMovieCollection implements AppConstants {
 		super();
 	}
 	
+	/**
+	 * @return the applicationPane
+	 */
+	public JApplicationPane getApplicationPane() {
+		return applicationPane;
+	}
+
 	/**
 	 * Run the FaitMain application.
 	 * @param args
@@ -55,10 +65,10 @@ public class PicasaMovieCollection implements AppConstants {
 	            public void run() {
 	            	try {
 		    			application.mainFrame = new JFrame(AppConf.getInstance().getProperty(KEY_APPLICATION_TITLE));
-		    			application.mainPanel = new JApplicationPane();
+		    			application.applicationPane = new JApplicationPane();
 		    			application.mainFrame.getContentPane().setBackground(Color.WHITE);
 		    			application.mainFrame.getContentPane().setLayout(new BorderLayout());
-		    			application.mainFrame.getContentPane().add(application.mainPanel, BorderLayout.CENTER);
+		    			application.mainFrame.getContentPane().add(application.applicationPane, BorderLayout.CENTER);
 		    			application.mainFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		    			application.mainFrame.setMinimumSize(application.mainFrame.getSize());
 		            	application.mainFrame.pack();
@@ -77,6 +87,25 @@ public class PicasaMovieCollection implements AppConstants {
 			JSplashScreen.getSplashScreen().hideSplashScreen();
 			//System.exit(0);
 		}	
+	}
+
+	private static final InfiniteProgressPanel progress = new InfiniteProgressPanel();
+	public static void runAction(final String message, final Runnable action) {
+		progress.setText(message);
+		progress.setPrimitiveWidth(application.mainFrame.getWidth()/5);
+		application.mainFrame.setGlassPane(progress);
+		progress.start();
+		new Thread() {
+			public void run() {
+				try {
+					action.run();
+				} finally {
+					progress.stop();
+					application.mainFrame.remove(progress);
+					application.mainFrame.repaint();
+				}
+			}
+		}.start();
 	}
 }
 
