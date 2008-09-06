@@ -1,14 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>dromard.picasamoviecollection</groupId>
+	<groupId>dromard</groupId>
 	<artifactId>picasamoviecollection</artifactId>
 	<name>PicasaMovieCollection</name>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
+	<url>http://code.google.com/p/picasamoviecollection</url>
 	<description>The purpose is to manage movies using picasa as
 		backend. Storing movies in picasa, the collection is shareable and can
 		be accessed from any where !</description>
 	<build>
+	    <finalName>picasamoviecollection</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -21,7 +23,7 @@
 	</build>
 	<dependencies>
 	    <dependency>
-			<groupId>net.dromard.common</groupId>
+			<groupId>net.dromard</groupId>
 			<artifactId>dromard.common</artifactId>
 			<version>1.9</version>
 	    </dependency>
@@ -54,11 +56,6 @@
 	     <repository>
 	         <id>JBoss</id>
 	         <url>http://repository.jboss.org/maven2</url>
-	     </repository>
-	     <repository>
-	     	<id>mvnrepository</id>
-	     	<name>MVN repository</name>
-	     	<url>http://www.mvnrepository.com/artifact</url>
 	     </repository>
 	</repositories>
 </project>
