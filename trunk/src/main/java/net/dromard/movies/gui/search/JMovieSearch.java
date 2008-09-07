@@ -32,12 +32,12 @@ public abstract class JMovieSearch extends JMainPanel {
 		});
 	}
 	
-	private void searchInThread(String query) {
+	private void searchInThread(final String query) {
 		if (query.length() > 2) {
 			PicasaMovieCollection.runAction("Searching for " + query,
 				new Runnable() {
 					public void run() {
-						search("Matrix");
+						displayResult(search(query));
 					}
 				}
 			);
