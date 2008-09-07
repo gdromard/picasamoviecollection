@@ -12,6 +12,7 @@ public abstract class JMovieButton extends JBigButton {
 
 	public JMovieButton(final Movie movie) {
 		super(movie.getTitle());
+		this.movie = movie;
 		new Thread() {
 			@Override
 			public void run() {

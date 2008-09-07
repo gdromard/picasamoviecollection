@@ -6,6 +6,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
+import sun.net.www.protocol.http.HttpURLConnection;
+
 import net.dromard.common.url.HttpURLConnectionViaProxy;
 import net.dromard.movies.service.ServiceLocator;
 
@@ -47,6 +49,10 @@ public final class AppContext implements AppConstants {
 	}
 
 	public URLConnection createHttpURLConnection(String url) throws MalformedURLException, IOException {
-		return new HttpURLConnectionViaProxy(new URL(url), proxyHost, proxyPort);
+		if (proxyHost != null && proxyPort > 0) {
+			return new HttpURLConnectionViaProxy(new URL(url), proxyHost, proxyPort);
+		} else {
+			return new URL(url).openConnection();
+		}
 	}
 }

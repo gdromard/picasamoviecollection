@@ -11,9 +11,9 @@ import java.awt.event.MouseListener;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
-import net.dromard.common.Util;
 import net.dromard.common.swing.JImage;
 import net.dromard.common.swing.JShadowPanel;
+import net.dromard.movies.gui.PicasaMovieCollection;
 
 /**
  * This class is an implementation of a button that contains an image.
@@ -21,7 +21,7 @@ import net.dromard.common.swing.JShadowPanel;
  * @author Gabriel Dromard
  */
 @SuppressWarnings("serial")
-public class JBigButton extends JShadowPanel implements MouseListener, Runnable {
+public class JBigButton extends JShadowPanel implements MouseListener {
     protected JImage thumbnail;
     protected Image tmp;
     protected JLabel label;
@@ -39,8 +39,7 @@ public class JBigButton extends JShadowPanel implements MouseListener, Runnable 
     public JBigButton(String text) {
         super(new BorderLayout(10, 10));
         background = new Color(255, 255, 255);
-        foreground = getParent().getForeground();
-        //foreground = PicasaMovieCollection.getInstance().getForeground();
+        foreground = PicasaMovieCollection.getInstance().getApplicationPane().getForeground();
         bgHover = new Color(230, 230, 230);
         fgHover = foreground.brighter();
         setSize(new Dimension(140, 140));
@@ -48,8 +47,7 @@ public class JBigButton extends JShadowPanel implements MouseListener, Runnable 
         setLineBorderColor(foreground);
         //setBorder(BorderFactory.createLineBorder(foreground));
         setOpaque(true);
-        setFont(getParent().getFont());
-        //setFont(PicasaMovieCollection.getInstance().getFont());
+        setFont(PicasaMovieCollection.getInstance().getApplicationPane().getFont());
         setBackground(background);
         setForeground(foreground);
         addMouseListener(this);
@@ -61,33 +59,6 @@ public class JBigButton extends JShadowPanel implements MouseListener, Runnable 
         label.setBackground(background);
         label.setHorizontalAlignment(SwingConstants.CENTER);
         add(label, BorderLayout.SOUTH);
-    }
-
-    /**
-     * Constructor that create the button.
-     * @param icon The icon to be displayed in
-     * @param text The button text.
-     */
-    public JBigButton(final String text, final String imageResourceName) {
-        this(text);
-        this.imageResourceName = imageResourceName;
-        new Thread(this).start();
-    }
-
-    public void run() {
-        if (imageResourceName != null) {
-            loadImageAsResource(imageResourceName);
-        }
-    }
-
-    private void loadImageAsResource(String imageName) {
-        setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
-        Image image = Util.loadImage(imageName);
-        thumbnail = new JImage(image, Image.SCALE_SMOOTH);
-        thumbnail.setOpaque(false);
-        add(thumbnail, BorderLayout.CENTER);
-        revalidate();
-        setCursor(Cursor.getDefaultCursor());
     }
 
     /* ------------- MouseListerner implementation ------------- */

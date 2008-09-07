@@ -4,11 +4,14 @@
 package net.dromard.movies.gui.beans;
 
 import java.awt.Image;
-import java.io.File;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.URLConnection;
 
 import javax.imageio.ImageIO;
 
+import net.dromard.movies.AppContext;
 import net.dromard.movies.model.Movie;
 
 /**
@@ -21,7 +24,7 @@ public class JMovieCoverButton extends JMovieButton {
 	/**
 	 * @param movie
 	 */
-	public JMovieCoverButton(Movie movie) {
+	public JMovieCoverButton(final Movie movie) {
 		super(movie);
 	}
 
@@ -31,7 +34,11 @@ public class JMovieCoverButton extends JMovieButton {
 	@Override
 	protected Image loadThumbnail() {
 		try {
-			return ImageIO.read(new File(movie.getThumbnailLink()));
+			URLConnection connection = AppContext.getInstance().createHttpURLConnection(movie.getImageLink());
+			InputStream is = connection.getInputStream();
+			BufferedImage image = ImageIO.read(is);
+			is.close();
+			return image;
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
