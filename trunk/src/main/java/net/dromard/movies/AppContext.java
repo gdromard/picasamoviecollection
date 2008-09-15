@@ -6,8 +6,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
-import sun.net.www.protocol.http.HttpURLConnection;
-
 import net.dromard.common.url.HttpURLConnectionViaProxy;
 import net.dromard.movies.service.ServiceLocator;
 

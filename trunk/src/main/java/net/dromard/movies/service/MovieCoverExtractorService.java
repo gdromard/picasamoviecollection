@@ -24,7 +24,6 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 import net.dromard.common.io.StreamHelper;
-import net.dromard.common.util.HTTPSession;
 import net.dromard.movies.AppContext;
 import net.dromard.movies.model.Movie;
 

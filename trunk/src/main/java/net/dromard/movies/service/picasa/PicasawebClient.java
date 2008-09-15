@@ -15,6 +15,11 @@
 
 package net.dromard.movies.service.picasa;
 
+import java.io.IOException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+
 import com.google.gdata.client.photos.PicasawebService;
 import com.google.gdata.data.Link;
 import com.google.gdata.data.photos.AlbumEntry;
@@ -27,11 +32,6 @@ import com.google.gdata.data.photos.TagEntry;
 import com.google.gdata.data.photos.UserFeed;
 import com.google.gdata.util.AuthenticationException;
 import com.google.gdata.util.ServiceException;
-
-import java.io.IOException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * This is a simple client that provides high-level operations on the Picasa Web Albums GData API. It can also be used as a command-line application to test out some of the features of the API.

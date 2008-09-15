@@ -2,19 +2,17 @@ package net.dromard.movies.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.FlowLayout;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
 
 import net.dromard.common.Util;
-import net.dromard.movies.AppConf;
-import net.dromard.movies.AppConstants;
 import net.dromard.common.swing.InfiniteProgressPanel;
 import net.dromard.common.swing.JSplashScreen;
+import net.dromard.movies.AppConf;
+import net.dromard.movies.AppConstants;
 
 
 /**
