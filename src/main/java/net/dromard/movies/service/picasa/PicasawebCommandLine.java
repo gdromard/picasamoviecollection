@@ -15,6 +15,15 @@
 
 package net.dromard.movies.service.picasa;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Date;
+import java.util.List;
+
 import com.google.gdata.client.photos.PicasawebService;
 import com.google.gdata.data.OtherContent;
 import com.google.gdata.data.PlainTextConstruct;
@@ -24,15 +33,6 @@ import com.google.gdata.data.photos.GphotoEntry;
 import com.google.gdata.data.photos.PhotoEntry;
 import com.google.gdata.data.photos.TagEntry;
 import com.google.gdata.util.ContentType;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Date;
-import java.util.List;
 
 /**
  * A Command-line application using the PicasawebClient to make calls to the Picasa Web Album GData API.
