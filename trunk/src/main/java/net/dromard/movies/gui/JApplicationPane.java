@@ -4,48 +4,42 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
-import java.awt.Image;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import javax.swing.BorderFactory;
 import javax.swing.JComponent;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
+import javax.swing.SwingUtilities;
 
 import net.dromard.common.Util;
-import net.dromard.common.swing.CellFlowLayout;
 import net.dromard.common.swing.JCachedPanel;
 import net.dromard.common.swing.JCustomBar;
 import net.dromard.common.swing.JCustomHeader;
-import net.dromard.common.swing.JForm;
-import net.dromard.common.swing.JImage;
-import net.dromard.common.xml.XmlMember;
 import net.dromard.movies.AppConf;
 import net.dromard.movies.AppConstants;
-import net.dromard.movies.gui.beans.Album;
 import net.dromard.movies.gui.beans.JMainPanel;
-import net.dromard.movies.gui.beans.Photo;
-import net.dromard.movies.gui.search.JMovieCoverSearch;
-import net.dromard.movies.gui.xml.ElementImage;
 
 public class JApplicationPane extends JPanel implements AppConstants {
 	private static final long serialVersionUID = 5243500740199674848L;
 	
 	protected JCustomBar bar = new JCustomBar();
 	protected JPanel mainPanelContainer = new JPanel(new BorderLayout());
+	/** The start panel to be displayed at application startup. */
+	private JMainPanel startPanel;
 	
 	/**
 	 * Application constructor.
 	 * @throws Exception 
 	 */
-	protected JApplicationPane() {
+	protected JApplicationPane(JMainPanel startPanel) {
 		super(new BorderLayout());
+		this.startPanel = startPanel;
 		initialize();
+		register(startPanel);
 	}
 	
 	/**
@@ -71,15 +65,6 @@ public class JApplicationPane extends JPanel implements AppConstants {
         scrollPane.setBorder(BorderFactory.createEmptyBorder());
 		add(scrollPane, BorderLayout.CENTER);
 		setPreferredSize(AppConf.getInstance().getPropertyAsDimension(KEY_APPLICATION_SIZE));
-		register(new JMovieCoverSearch());
-	}
-
-	private Color getDefaultForeground() {
-		return getForeground();
-	}
-	
-    public Font getDefaultFont() {
-		return getFont();
 	}
 
 	/**
@@ -140,16 +125,16 @@ public class JApplicationPane extends JPanel implements AppConstants {
 	
 	@SuppressWarnings("serial")
 	private class MyButtonBar extends JCustomBar.CustomBarButton {
-		private JMainPanel panel;
+		private MainPanel panel;
 		
-		public MyButtonBar(String btnName, JMainPanel panel, JCustomBar parent) {
+		public MyButtonBar(String btnName, MainPanel panel, JCustomBar parent) {
 			super(parent, btnName);
 			this.panel = panel;
 		}
 
 		@Override
 		public void mouseReleased(MouseEvent evt) {
-			bar.removeButtonsIncludingMe(this);
+			bar.removeButtonsAfterMe(this);
 		}
 
 		@Override
@@ -158,128 +143,44 @@ public class JApplicationPane extends JPanel implements AppConstants {
 			unregister(panel);
 		}
 	}
-	
-	@SuppressWarnings("serial")
-	private class ImageSlider extends JMainPanel {
-		protected Photo photo;
-		protected int currentImage = 0;
-		public ImageSlider(Photo photo) {
-			super("Photos");
-			setLayout(new BorderLayout(10, 10));
-			this.photo = photo;
 
-			setOpaque(false);
-			List<XmlMember> childs = photo.getChilds();
-			if (childs.size() > 0) {
-				XmlMember child = childs.get(currentImage);
-				if (child instanceof ElementImage) {
-					JImage image = new JImage(Util.loadImage(((ElementImage) child).getPath()), Image.SCALE_SMOOTH);
-                    image.setOpaque(false);
-					add(image, BorderLayout.CENTER);
-				}
-			}
-		}
-	}
-	
-	/* ------------------------- Panel ------------------------- */
-
-	/**
-	 * This panel handle the display of element's childs (Domain and Element).
-	 */
-	@SuppressWarnings("serial")
-	private class AlbumPanel extends JMainPanel {
-		Album album;
-		
-		public AlbumPanel(Album album) {
-			super("Album");
-			setLayout(new CellFlowLayout(10, 10));
-			this.album = album;
-			
-			setOpaque(false);
-			List<XmlMember> childs = album.getChilds();
-			for(int i=0; i<childs.size(); ++i) {
-				XmlMember child = childs.get(i);
-				if (child instanceof Album) {
-					//add(new AlbumButton((Album) child));
-				} else if(child instanceof Photo) {
-					//add(new PhotoButton((Photo) child));
-				}
-			}
-		}
-	}
-
-	/**
-	 * This panel handle the display of element's childs (Domain and Element).
-	 */
-	@SuppressWarnings("serial")
-	private class ElementPanel extends JPanel {
-		Photo photo;
-		
-		public ElementPanel(Photo photo) {
-			super(new BorderLayout(10, 10));
-			this.photo = photo;
-			setOpaque(false);
-			JForm elementDetails = new JForm(10, 10);
-			elementDetails.setOpaque(false);
-			Iterator<String> it = photo.getAttributes().keySet().iterator();
-			while(it.hasNext()) {
-				String key = (String) it.next();
-				String value = photo.getAttribute(key);
-				String localizedKey = AppConf.getInstance().getProperty("application.attributes."+key);
-				if (localizedKey != null) key = localizedKey;
-                JLabel k = new JLabel(key);
-				k.setFont(getDefaultFont());
-				k.setForeground(getDefaultForeground());
-				JLabel v = new JLabel(value);
-				v.setFont(getDefaultFont());
-				v.setForeground(getDefaultForeground());
-				elementDetails.addLine(k, v, null);
-			}
-			if (photo.getText() != null) {
-				JLabel v = new JLabel(photo.getText());
-				v.setFont(getDefaultFont());
-				v.setForeground(getDefaultForeground());
-				elementDetails.addLine(new JLabel(""), v, null);
-			}
-			add(elementDetails, BorderLayout.NORTH);
-			add(new ImageSlider(photo), BorderLayout.CENTER);
-		}
-	}
-	
 	/* ------------------------- Set Content ------------------------- */
 
-	List<JMainPanel> mainPanels = new ArrayList<JMainPanel>();
+	List<MainPanel> mainPanels = new ArrayList<MainPanel>();
 	
 	/**
 	 * Set inner content of the application using the given panel.
 	 * @param mainPanel The panel to be displayed into application.
 	 */
-    public void register(JMainPanel mainPanel) {
-		bar.addButton(new MyButtonBar(mainPanel.getName(), mainPanel, bar));
-		mainPanelContainer.removeAll();
-		mainPanelContainer.add(mainPanel, BorderLayout.CENTER);
-		if (!mainPanels.contains(mainPanel)) {
+    public void register(MainPanel mainPanel) {
+    	if (!mainPanels.contains(mainPanel)) {
+			bar.addButton(new MyButtonBar(mainPanel.getName(), mainPanel, bar));
 			mainPanels.add(mainPanel);
 		}
-		//content.revalidate();
-		//SwingUtilities.updateComponentTreeUI(mainPanelContainer);
+    	mainPanelContainer.removeAll();
+    	mainPanelContainer.add(mainPanel.getPanel(), BorderLayout.CENTER);
+		SwingUtilities.updateComponentTreeUI(mainPanelContainer);
 	}
 
 	/**
 	 * Set inner content of the application using the given panel.
-	 * @param content The panel to be displayed into application.
+	 * @param mainPanel The panel to be removed from application.
+	 * @param buttonBar The bar button to be removed from application.
 	 */
-    public void unregister(JMainPanel mainPanel) {
-		bar.addButton(new MyButtonBar(mainPanel.getName(), mainPanel, bar));
-		mainPanelContainer.removeAll();
-		mainPanelContainer.add(mainPanel, BorderLayout.CENTER);
-		int index = mainPanels.indexOf(mainPanel);
-		while (mainPanels.size() >= index) {
-			mainPanel.remove(index);
-		}
-		register(mainPanels.get(mainPanels.size() - 1));
-		//maiPanels.removeElementAt()
-		//content.revalidate();
-		//SwingUtilities.updateComponentTreeUI(mainPanelContainer);
+    public void unregister(MainPanel mainPanel) {
+    	try {
+			int index = mainPanels.indexOf(mainPanel);
+			while (mainPanels.size()-1 >= index) {
+				mainPanels.remove(index);
+			}
+			if (index > 0) {
+				register(mainPanels.get(mainPanels.size() - 1));
+			} else {
+				register(startPanel);
+			}
+    	} catch(Exception ex) {
+    		ex.printStackTrace();
+    	}
+		SwingUtilities.updateComponentTreeUI(mainPanelContainer);
 	}
 }

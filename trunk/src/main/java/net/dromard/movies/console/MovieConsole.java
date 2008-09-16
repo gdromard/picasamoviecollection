@@ -21,7 +21,7 @@ public class MovieConsole {
 			try {
 				if (resp.equals("1")) {
 					resp = Console.ask("Movie title to search ?", null);
-					List<String> result = AppContext.getInstance().getServiceLocator().getMovieExtractorService().findFromWWWByTitle(resp);
+					List<String> result = AppContext.getInstance().getServiceLocator().getMovieExtractorService().findByTitle(resp);
 					handleMovieCoverSearch(result);
 				}
 			} catch (Exception e) {
@@ -40,7 +40,7 @@ public class MovieConsole {
 		String resp;
 		while (!(resp = Console.printMenu(menu, "Q")).equalsIgnoreCase("Q") || resp.equals(""+(menu.length-1))) {
 			try {
-				Movie movie = AppContext.getInstance().getServiceLocator().getMovieExtractorService().getFromWWWByTitle(result.get(Integer.parseInt(resp)-1));
+				Movie movie = AppContext.getInstance().getServiceLocator().getMovieExtractorService().getByTitle(result.get(Integer.parseInt(resp)-1));
 				System.out.println(movie.toString());
 				/*
 				resp = Console.ask("Do you want to create this movie ?", "Yes");

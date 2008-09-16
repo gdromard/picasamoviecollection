@@ -1,16 +1,20 @@
-package net.dromard.movies.gui.search;
+package net.dromard.movies.gui.actions.search;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 import net.dromard.movies.gui.PicasaMovieCollection;
+import net.dromard.movies.gui.actions.GuiAction;
 import net.dromard.movies.gui.beans.JMainPanel;
+import net.dromard.movies.gui.beans.JMovieButton;
+import net.dromard.movies.gui.beans.JMoviesPanel;
 import net.dromard.movies.model.Movie;
 
 public abstract class JMovieSearch extends JMainPanel {
@@ -31,11 +35,12 @@ public abstract class JMovieSearch extends JMainPanel {
 			}
 		});
 	}
-	
+
 	private void searchInThread(final String query) {
 		if (query.length() > 2) {
-			PicasaMovieCollection.runAction("Searching for " + query,
-				new Runnable() {
+			PicasaMovieCollection.getInstance().pushAction(
+				new GuiAction() {
+					{ setMessage("Searching for " + query); }
 					public void run() {
 						displayResult(search(query));
 					}
@@ -45,6 +50,12 @@ public abstract class JMovieSearch extends JMainPanel {
 	}
 
 	protected abstract List<Movie> search(String query);
-	
-	protected abstract void displayResult(List<Movie> movies);
+
+	protected void displayResult(List<Movie> movies) {
+		List<JMovieButton> buttons = new ArrayList<JMovieButton>();
+		for (Movie movie : movies) {
+			buttons.add(new JMovieButton(movie));
+		}
+		PicasaMovieCollection.getInstance().register(new JMoviesPanel("Search result", buttons));
+	}
 }
