@@ -29,6 +29,7 @@ public final class GuiActionRunner {
 	public void start() {
 		running = true;
 		progress.setPrimitiveWidth(application.getWidth()/5);
+		//progress.setSize(application.getSize());
 		application.setGlassPane(progress);
 		progress.start();
 		new Thread() {
