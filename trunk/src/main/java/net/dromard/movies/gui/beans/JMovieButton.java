@@ -5,6 +5,7 @@ import java.awt.Image;
 import java.awt.event.MouseEvent;
 
 import net.dromard.movies.gui.PicasaMovieCollection;
+import net.dromard.movies.gui.actions.details.JMoviePanel;
 import net.dromard.movies.gui.util.ImageLoader;
 import net.dromard.movies.model.Movie;
 

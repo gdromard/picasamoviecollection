@@ -1,8 +1,10 @@
-package net.dromard.movies.gui.beans;
+package net.dromard.movies.gui.actions.list;
 
 import java.util.List;
 
 import net.dromard.common.swing.CellFlowLayout;
+import net.dromard.movies.gui.actions.JMainPanel;
+import net.dromard.movies.gui.beans.JMovieButton;
 
 
 public class JMoviesPanel extends JMainPanel {

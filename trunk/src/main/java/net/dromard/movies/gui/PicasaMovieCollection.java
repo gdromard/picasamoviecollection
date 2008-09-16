@@ -14,6 +14,7 @@ import net.dromard.movies.AppConf;
 import net.dromard.movies.AppConstants;
 import net.dromard.movies.gui.actions.GuiAction;
 import net.dromard.movies.gui.actions.GuiActionRunner;
+import net.dromard.movies.gui.actions.MainPanel;
 import net.dromard.movies.gui.actions.search.JMovieCoverSearch;
 
 

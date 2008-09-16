@@ -21,7 +21,8 @@ import net.dromard.common.swing.JCustomBar;
 import net.dromard.common.swing.JCustomHeader;
 import net.dromard.movies.AppConf;
 import net.dromard.movies.AppConstants;
-import net.dromard.movies.gui.beans.JMainPanel;
+import net.dromard.movies.gui.actions.JMainPanel;
+import net.dromard.movies.gui.actions.MainPanel;
 
 public class JApplicationPane extends JPanel implements AppConstants {
 	private static final long serialVersionUID = 5243500740199674848L;

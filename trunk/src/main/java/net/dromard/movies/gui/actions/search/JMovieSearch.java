@@ -12,9 +12,9 @@ import javax.swing.JTextField;
 
 import net.dromard.movies.gui.PicasaMovieCollection;
 import net.dromard.movies.gui.actions.GuiAction;
-import net.dromard.movies.gui.beans.JMainPanel;
+import net.dromard.movies.gui.actions.JMainPanel;
+import net.dromard.movies.gui.actions.list.JMoviesPanel;
 import net.dromard.movies.gui.beans.JMovieButton;
-import net.dromard.movies.gui.beans.JMoviesPanel;
 import net.dromard.movies.model.Movie;
 
 public abstract class JMovieSearch extends JMainPanel {
