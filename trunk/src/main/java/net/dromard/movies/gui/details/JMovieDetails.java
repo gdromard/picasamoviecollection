@@ -1,11 +1,11 @@
-package net.dromard.movies.gui.actions.details;
+package net.dromard.movies.gui.details;
 
 import java.awt.BorderLayout;
 import java.awt.Image;
 
-import net.dromard.movies.gui.actions.JMainPanel;
-import net.dromard.movies.gui.actions.MainPanel;
+import net.dromard.movies.gui.beans.JMainPanel;
 import net.dromard.movies.gui.beans.JThumbnail;
+import net.dromard.movies.gui.beans.MainPanel;
 import net.dromard.movies.gui.util.ImageLoader;
 import net.dromard.movies.model.Movie;
 
