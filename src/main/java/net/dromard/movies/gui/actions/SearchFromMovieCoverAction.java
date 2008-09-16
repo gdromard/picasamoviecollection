@@ -1,4 +1,7 @@
-package net.dromard.movies.gui.actions.search;
+/**
+ * 
+ */
+package net.dromard.movies.gui.actions;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -9,14 +12,25 @@ import java.util.List;
 import net.dromard.movies.AppContext;
 import net.dromard.movies.model.Movie;
 
-public class JMovieCoverSearch extends JMovieSearch {
-	private static final long serialVersionUID = -5847783820396760842L;
-
-	public JMovieCoverSearch() {
-		super("Search from moviecovers.com");
+/**
+ * @author Gabriel Dromard
+ */
+public class SearchFromMovieCoverAction extends GuiAction {
+	private String query;
+	public SearchFromMovieCoverAction(final String query) {
+		this.query = query;
+		setMessage("Searching for " + query);
 	}
 
-	protected List<Movie> search(String query) {
+	/* (non-Javadoc)
+	 * @see java.lang.Runnable#run()
+	 */
+	@Override
+	public void run() {
+		new LoadMovieListPanelAction(searchByTitle(query)).run();
+	}
+
+	private static List<Movie> searchByTitle(String query) {
 		List<Movie> movies = new ArrayList<Movie>();
 		try {
 			List<String> list = AppContext.getInstance().getServiceLocator().getMovieExtractorService().findByTitle(query);

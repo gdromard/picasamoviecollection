@@ -16,31 +16,25 @@ import javax.swing.JScrollPane;
 import javax.swing.SwingUtilities;
 
 import net.dromard.common.Util;
-import net.dromard.common.swing.JCachedPanel;
 import net.dromard.common.swing.JCustomBar;
 import net.dromard.common.swing.JCustomHeader;
 import net.dromard.movies.AppConf;
 import net.dromard.movies.AppConstants;
-import net.dromard.movies.gui.actions.JMainPanel;
-import net.dromard.movies.gui.actions.MainPanel;
+import net.dromard.movies.gui.beans.MainPanel;
 
 public class JApplicationPane extends JPanel implements AppConstants {
 	private static final long serialVersionUID = 5243500740199674848L;
 	
 	protected JCustomBar bar = new JCustomBar();
 	protected JPanel mainPanelContainer = new JPanel(new BorderLayout());
-	/** The start panel to be displayed at application startup. */
-	private JMainPanel startPanel;
 	
 	/**
 	 * Application constructor.
 	 * @throws Exception 
 	 */
-	protected JApplicationPane(JMainPanel startPanel) {
+	protected JApplicationPane() {
 		super(new BorderLayout());
-		this.startPanel = startPanel;
 		initialize();
-		register(startPanel);
 	}
 	
 	/**
@@ -74,7 +68,6 @@ public class JApplicationPane extends JPanel implements AppConstants {
 	 * @throws IOException If an error occured while accessing the properties file.
 	 */
 	public JComponent header() {
-		final JPanel panel = new JCachedPanel(new BorderLayout());
         // Titles
         Color bg = AppConf.getInstance().getPropertyAsColor(KEY_APPLICATION_HEADER_BGCOLOR);
         Color fg = AppConf.getInstance().getPropertyAsColor(KEY_APPLICATION_HEADER_FGCOLOR);
@@ -116,7 +109,7 @@ public class JApplicationPane extends JPanel implements AppConstants {
 		// Add the first image to bar.
 		//bar.addButton(new DomainButtonBar(root, bar));
 		
-		
+		final JPanel panel = new JPanel(new BorderLayout());
 		panel.add(header, BorderLayout.CENTER);
 		panel.add(bar, BorderLayout.SOUTH);
 		return panel;
@@ -155,7 +148,7 @@ public class JApplicationPane extends JPanel implements AppConstants {
 	 */
     public void register(MainPanel mainPanel) {
     	if (!mainPanels.contains(mainPanel)) {
-			bar.addButton(new MyButtonBar(mainPanel.getName(), mainPanel, bar));
+			bar.addButton(new MyButtonBar(mainPanel.getTitle(), mainPanel, bar));
 			mainPanels.add(mainPanel);
 		}
     	mainPanelContainer.removeAll();
@@ -176,8 +169,6 @@ public class JApplicationPane extends JPanel implements AppConstants {
 			}
 			if (index > 0) {
 				register(mainPanels.get(mainPanels.size() - 1));
-			} else {
-				register(startPanel);
 			}
     	} catch(Exception ex) {
     		ex.printStackTrace();

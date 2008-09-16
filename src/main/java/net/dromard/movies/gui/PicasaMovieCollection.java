@@ -12,10 +12,10 @@ import net.dromard.common.Util;
 import net.dromard.common.swing.JSplashScreen;
 import net.dromard.movies.AppConf;
 import net.dromard.movies.AppConstants;
+import net.dromard.movies.gui.actions.ApplicationLoaderAction;
 import net.dromard.movies.gui.actions.GuiAction;
 import net.dromard.movies.gui.actions.GuiActionRunner;
-import net.dromard.movies.gui.actions.MainPanel;
-import net.dromard.movies.gui.actions.search.JMovieCoverSearch;
+import net.dromard.movies.gui.beans.MainPanel;
 
 
 /**
@@ -32,40 +32,40 @@ public class PicasaMovieCollection implements AppConstants {
 	private GuiActionRunner actionRunner;
 
 	/** Retrieve instance. */
-	public static PicasaMovieCollection getInstance() {
+	public synchronized static PicasaMovieCollection getInstance() {
 		if (application == null) {
 			application = new PicasaMovieCollection();
-		}
+			application.mainFrame = new JFrame(AppConf.getInstance().getProperty(KEY_APPLICATION_TITLE));
+			application.mainFrame.getContentPane().setBackground(Color.WHITE);
+			application.mainFrame.getContentPane().setLayout(new BorderLayout());
+			application.mainFrame.getContentPane().add(application.getApplicationPane(), BorderLayout.CENTER);
+			application.mainFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+			application.mainFrame.setMinimumSize(application.mainFrame.getSize());
+	    	application.mainFrame.pack();
+	    	application.mainFrame.setLocationRelativeTo(null);
+	    	application.mainFrame.setVisible(true);
+    		application.actionRunner = new GuiActionRunner(application.mainFrame);
+	    }
 		return application;
 	}
 
 	/** Constructor. */
 	private PicasaMovieCollection() {
 		super();
-		mainFrame = new JFrame(AppConf.getInstance().getProperty(KEY_APPLICATION_TITLE));
-		actionRunner = new GuiActionRunner(mainFrame);
-		actionRunner.push(new GuiAction() {
-			{ setMessage("Loading ..."); }
-			@Override
-			public void run() {
-				mainFrame.getContentPane().setBackground(Color.WHITE);
-				mainFrame.getContentPane().setLayout(new BorderLayout());
-				applicationPane = new JApplicationPane(new JMovieCoverSearch());
-				mainFrame.getContentPane().add(application.applicationPane, BorderLayout.CENTER);
-				mainFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-				mainFrame.setMinimumSize(application.mainFrame.getSize());
-		    	mainFrame.pack();
-		    	mainFrame.setLocationRelativeTo(null);
-		    	mainFrame.setVisible(true);
-			}
-		});
 	}
 	
 	/**
 	 * @return the applicationPane
 	 */
-	public JApplicationPane getApplicationPane() {
+	public synchronized JApplicationPane getApplicationPane() {
+		if (applicationPane == null) {
+			applicationPane = new JApplicationPane();
+		}
 		return applicationPane;
+	}
+
+	public JFrame getMainFrame() {
+		return mainFrame;
 	}
 
 	public void pushAction(final GuiAction guiAction) {
@@ -94,7 +94,7 @@ public class PicasaMovieCollection implements AppConstants {
 	        SwingUtilities.invokeLater(new Runnable() {
 	            public void run() {
 	            	try {
-	            		getInstance();
+	            		getInstance().pushAction(new ApplicationLoaderAction(application));
 		            } catch (Error e) {
 		            	e.printStackTrace();
 		            	JSplashScreen.getSplashScreen().hideSplashScreen();
