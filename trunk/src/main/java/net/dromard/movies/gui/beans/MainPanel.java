@@ -5,4 +5,5 @@ import javax.swing.JPanel;
 public interface MainPanel {
 	String getTitle();
 	JPanel getPanel();
+	void requestFocus();
 }

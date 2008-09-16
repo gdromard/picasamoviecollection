@@ -1,7 +1,6 @@
 package net.dromard.movies.gui.beans;
 
 import java.awt.BorderLayout;
-import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Image;
@@ -45,6 +44,7 @@ public abstract class JThumbnail extends JPanel implements ImageObserver {
         thumbnail = loadThumbnail();
         remove(progress);
         progress.stop();
+        repaint();
         SwingUtilities.updateComponentTreeUI(this);
 	}
 
@@ -87,39 +87,18 @@ public abstract class JThumbnail extends JPanel implements ImageObserver {
             int w = getWidth() - insets.left - insets.right;
             int h = getHeight() - insets.top - insets.bottom;
             
-            //if (image.getWidth(this) > w || image.getHeight(this) > h) 
-            /**
-            image = ImageHelper.scaleImage(image, w, h);
-			g.drawImage(image, insets.left + (w - image.getWidth(this)) / 2, insets.top + (h - image.getHeight(this)) / 2, this);
-			/**/
             ((Graphics2D) g).setRenderingHint(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY);
             
             int orgW = thumbnail.getWidth(null);
             int orgH = thumbnail.getHeight(null);
 
-            float hh = h;
-            float ww = w;
-            if (hh > ww * orgH / orgW) {
-                hh = ww * orgH / orgW;
-                if (hh > h) {
-            		setPreferredSize(new Dimension((int) ww, (int) hh));
-            	}
-            } else {
-            	ww = h * orgW / orgH;
-            	if (ww > w) {
-            		setPreferredSize(new Dimension((int) ww, (int) hh));
-                }
-            }
-            /*
             int ww = w;
             int hh = ww * orgH / orgW;
             if (hh > h) {
                 hh = h;
                 ww = hh * orgW / orgH;
             }
-            */
-            g.drawImage(thumbnail, (int) (insets.left + (w - ww) / 2), (int) (insets.top + (h - hh) / 2), (int) ww, (int) hh, this);
-            /**/
+            g.drawImage(thumbnail, insets.left + (w - ww) / 2, insets.top + (h - hh) / 2, ww, hh, this);
 		}
     }
 }

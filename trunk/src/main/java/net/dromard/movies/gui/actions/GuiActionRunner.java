@@ -7,6 +7,7 @@ import javax.swing.JFrame;
 import net.dromard.common.swing.InfiniteProgressPanel;
 import net.dromard.movies.AppConf;
 import net.dromard.movies.AppConstants;
+import net.dromard.movies.gui.PicasaMovieCollection;
 
 public final class GuiActionRunner {
 	private static final InfiniteProgressPanel progress = new InfiniteProgressPanel();
@@ -45,6 +46,7 @@ public final class GuiActionRunner {
 					progress.stop();
 					application.remove(progress);
 					application.repaint();
+					PicasaMovieCollection.getInstance().setFocus();
 				}
 			}
 		}.start();
