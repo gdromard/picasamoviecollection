@@ -141,6 +141,12 @@ public class JApplicationPane extends JPanel implements AppConstants {
 	/* ------------------------- Set Content ------------------------- */
 
 	List<MainPanel> mainPanels = new ArrayList<MainPanel>();
+
+	public void setFocus() {
+		if (mainPanels.size() > 0) {
+			mainPanels.get(mainPanels.size() - 1).requestFocus();
+		}
+	}
 	
 	/**
 	 * Set inner content of the application using the given panel.

@@ -27,6 +27,6 @@ public class JMovieDetails extends JMainPanel implements MainPanel {
 				return ImageLoader.loadImage(movie.getImageLink());
 			}
 		};
-		add(cover, BorderLayout.WEST);
+		add(cover, BorderLayout.CENTER);
 	}
 }

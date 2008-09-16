@@ -68,6 +68,10 @@ public class PicasaMovieCollection implements AppConstants {
 		return mainFrame;
 	}
 
+	public void setFocus() {
+		getApplicationPane().setFocus();
+	}
+
 	public void pushAction(final GuiAction guiAction) {
 		actionRunner.push(guiAction);
 	}
