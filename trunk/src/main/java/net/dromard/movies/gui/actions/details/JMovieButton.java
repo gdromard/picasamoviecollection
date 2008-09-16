@@ -1,11 +1,12 @@
-package net.dromard.movies.gui.beans;
+package net.dromard.movies.gui.actions.details;
 
 import java.awt.BorderLayout;
 import java.awt.Image;
 import java.awt.event.MouseEvent;
 
 import net.dromard.movies.gui.PicasaMovieCollection;
-import net.dromard.movies.gui.actions.details.JMoviePanel;
+import net.dromard.movies.gui.beans.JBigButton;
+import net.dromard.movies.gui.beans.JThumbnail;
 import net.dromard.movies.gui.util.ImageLoader;
 import net.dromard.movies.model.Movie;
 
@@ -31,6 +32,6 @@ public class JMovieButton extends JBigButton {
 	@Override
 	public void mouseReleased(MouseEvent evt) {
 		super.mouseReleased(evt);
-		PicasaMovieCollection.getInstance().register(new JMoviePanel(movie));
+		PicasaMovieCollection.getInstance().register(new JMovieDetails(movie));
 	}
 }
