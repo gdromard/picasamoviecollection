@@ -9,11 +9,11 @@ import net.dromard.movies.gui.beans.JThumbnail;
 import net.dromard.movies.gui.util.ImageLoader;
 import net.dromard.movies.model.Movie;
 
-public class JMoviePanel extends JMainPanel implements MainPanel {
+public class JMovieDetails extends JMainPanel implements MainPanel {
 	private static final long serialVersionUID = 4058949588845080373L;
 	private Movie movie;
 	
-	public JMoviePanel(final Movie movie) {
+	public JMovieDetails(final Movie movie) {
 		super(movie.getTitle());
 		this.movie = movie;
 		setLayout(new BorderLayout(10, 10));
