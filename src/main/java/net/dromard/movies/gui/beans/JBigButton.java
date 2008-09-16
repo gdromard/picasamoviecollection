@@ -4,14 +4,12 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Dimension;
-import java.awt.Image;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
-import net.dromard.common.swing.JImage;
 import net.dromard.common.swing.JShadowPanel;
 import net.dromard.movies.gui.PicasaMovieCollection;
 
@@ -22,10 +20,7 @@ import net.dromard.movies.gui.PicasaMovieCollection;
  */
 @SuppressWarnings("serial")
 public class JBigButton extends JShadowPanel implements MouseListener {
-    protected JImage thumbnail;
-    protected Image tmp;
     protected JLabel label;
-    protected String imageResourceName;
     protected Color bgHover;
     protected Color fgHover;
     protected Color background;

@@ -1,5 +1,7 @@
 package net.dromard.movies.service;
 
+import net.dromard.movies.service.moviecovers.MovieCoverExtractorService;
+
 
 
 public class ServiceLocator {
