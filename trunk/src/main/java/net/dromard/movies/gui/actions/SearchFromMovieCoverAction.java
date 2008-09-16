@@ -25,24 +25,24 @@ public class SearchFromMovieCoverAction extends GuiAction {
 	/* (non-Javadoc)
 	 * @see java.lang.Runnable#run()
 	 */
-	@Override
 	public void run() {
 		new LoadMovieListPanelAction(searchByTitle(query)).run();
 	}
 
 	private static List<Movie> searchByTitle(String query) {
 		List<Movie> movies = new ArrayList<Movie>();
+		List<String> list = null;
 		try {
-			List<String> list = AppContext.getInstance().getServiceLocator().getMovieExtractorService().findByTitle(query);
-			for(String title : list) {
-				movies.add(AppContext.getInstance().getServiceLocator().getMovieExtractorService().getByTitle(title));
+			list = AppContext.getInstance().getServiceLocator().getMovieExtractorService().findByTitle(query);
+			for (String title : list) {
+				try {
+					movies.add(AppContext.getInstance().getServiceLocator().getMovieExtractorService().getByTitle(title));
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
 			}
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
+		} catch (Exception e1) {
+			e1.printStackTrace();
 		}
 		return movies;
 	}
