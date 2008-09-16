@@ -1,4 +1,4 @@
-package net.dromard.movies.gui;
+package net.dromard.movies.gui.actions;
 
 import javax.swing.JPanel;
 
