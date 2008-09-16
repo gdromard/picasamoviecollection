@@ -14,7 +14,6 @@ public class ApplicationLoaderAction extends GuiAction {
 		setMessage("Loading ...");
 	}
 
-	@Override
 	public void run() {
 		new LoadFirstPanelAction().run();
 	}
