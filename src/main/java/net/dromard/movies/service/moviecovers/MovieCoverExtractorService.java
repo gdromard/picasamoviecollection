@@ -66,7 +66,9 @@ public class MovieCoverExtractorService implements IMovieExtractorService {
 		BufferedReader filmReader = null;
 		Movie movie = null;
 		try {
-			filmReader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+			String contentType = connection.getHeaderField("Content-Type");
+			String charset = contentType.substring(contentType.lastIndexOf('=') + 1);
+			filmReader = new BufferedReader(new InputStreamReader(connection.getInputStream(), charset));
 			movie = loadMovieCover(filmReader);
 			// Image URL
 			movie.setImageLink(MessageFormat.format(GET_JPG_URL, URLEncoder.encode(exactName, "UTF-8").replace("+", "%20")));
@@ -79,12 +81,13 @@ public class MovieCoverExtractorService implements IMovieExtractorService {
 	}
 
 	private static Movie loadMovieCover(BufferedReader filmReader) throws IOException, ParseException {
+	    SimpleDateFormat formater = new SimpleDateFormat("HH:mm");
 		String title = filmReader.readLine();
 	    String[] directors = filmReader.readLine().split("/");
 	    String year = filmReader.readLine();
-	    String nationality = filmReader.readLine();
-	    String genre = filmReader.readLine();
-	    String length = filmReader.readLine(); // format is 2H00
+	    String[] nationalities = filmReader.readLine().split(",");
+	    String[] genres = filmReader.readLine().split(",");
+	    long length = formater.parse(filmReader.readLine().replace('H', ':')).getTime(); // format is 2H00
 	    String[] casting = filmReader.readLine().split(";");
 	    String synopsis = filmReader.readLine();
 	    String provider = filmReader.readLine();
@@ -94,11 +97,10 @@ public class MovieCoverExtractorService implements IMovieExtractorService {
 	    movie.setTitle(title);
     	movie.setDirectors(Arrays.asList(directors));
     	movie.setCast(Arrays.asList(casting));
-		movie.setNationality(nationality);
-	    movie.setGenre(genre);
+		movie.setNationalities(Arrays.asList(nationalities));
+	    movie.setGenres(Arrays.asList(genres));
 	    movie.setYear(Integer.parseInt(year));
-	    SimpleDateFormat formater = new SimpleDateFormat("HH:mm");
-	    movie.setLength(formater.parse(length.replace('H', ':')).getTime());
+	    movie.setLength(length);
 	    movie.setSynopsis(synopsis);
 	    movie.setOriginalTitle(originalTitle);
 	    movie.setProvider(provider);

@@ -75,7 +75,6 @@ public class Util {
         URL url = getResource(name);
 
         if (url != null) image = new ImageIcon(url).getImage();
-//        else if (new File("data/"+name).exists()) image = new ImageIcon("data/"+name).getImage();
         else System.err.println("[Util.LoadImage] Unable to load the picture " + name);
         return image;
     }

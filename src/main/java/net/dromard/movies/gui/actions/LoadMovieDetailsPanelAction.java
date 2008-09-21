@@ -4,7 +4,7 @@
 package net.dromard.movies.gui.actions;
 
 import net.dromard.movies.gui.beans.MainPanel;
-import net.dromard.movies.gui.details.JMovieDetails;
+import net.dromard.movies.gui.details.JMovie;
 import net.dromard.movies.model.Movie;
 
 /**
@@ -23,6 +23,6 @@ public class LoadMovieDetailsPanelAction extends AbstractLoadPanelAction {
 	 */
 	@Override
 	public MainPanel loadPanel() {
-		return new JMovieDetails(movie);
+		return new JMovie(movie);
 	}
 }

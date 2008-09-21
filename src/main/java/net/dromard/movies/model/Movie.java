@@ -1,5 +1,6 @@
 package net.dromard.movies.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Movie {
@@ -13,13 +14,13 @@ public class Movie {
     private String imageLink;
     private String thumbnailLink;
     private String format;
-    private String version;
     private String quality;
-    private String genre;
-    private String nationality;
     private String provider;
-    private List<String> directors;
-    private List<String> cast;
+    private List<String> versions = new ArrayList<String>();
+    private List<String> genres = new ArrayList<String>();
+    private List<String> nationalities = new ArrayList<String>();
+    private List<String> directors = new ArrayList<String>();
+    private List<String> cast = new ArrayList<String>();
     
 	/**
 	 * @return the id
@@ -163,26 +164,38 @@ public class Movie {
 	/**
 	 * @return the genre
 	 */
-	public String getGenre() {
-		return genre;
+	public List<String> getGenres() {
+		return genres;
 	}
 	/**
-	 * @param genre the genre to set
+	 * @param genres the genre to set
 	 */
-	public void setGenre(String genre) {
-		this.genre = genre;
+	public void setGenres(List<String> genres) {
+		this.genres = genres;
+	}
+	/**
+	 * @param nationality A nationality of the movie
+	 */
+	public void addGenre(String genre) {
+		this.genres.add(genre);
 	}
 	/**
 	 * @return the nationality
 	 */
-	public String getNationality() {
-		return nationality;
+	public List<String> getNationalities() {
+		return nationalities;
 	}
 	/**
-	 * @param nationality the nationality to set
+	 * @param nationalities the nationality to set
 	 */
-	public void setNationality(String nationality) {
-		this.nationality = nationality;
+	public void setNationalities(List<String> nationalities) {
+		this.nationalities = nationalities;
+	}
+	/**
+	 * @param nationality A nationality of the movie
+	 */
+	public void addNationality(String nationality) {
+		this.nationalities.add(nationality);
 	}
 	/**
 	 * @return the quality
@@ -197,16 +210,22 @@ public class Movie {
 		this.quality = quality;
 	}
 	/**
-	 * @return the version
+	 * @return the version (the language of the movie)
 	 */
-	public String getVersion() {
-		return version;
+	public List<String> getVersions() {
+		return versions;
 	}
 	/**
-	 * @param version the version to set
+	 * @param versions the version to set
 	 */
-	public void setVersion(String version) {
-		this.version = version;
+	public void setVersions(List<String> versions) {
+		this.versions = versions;
+	}
+	/**
+	 * @param version The movie version (language)
+	 */
+	public void addVersion(String version) {
+		this.versions.add(version);
 	}
 	/**
 	 * @return the year
@@ -234,7 +253,7 @@ public class Movie {
 		this.provider = provider;
 	}
 	/**
-	 * @return the format
+	 * @return the format (of the movie support)
 	 */
 	public String getFormat() {
 		return format;
@@ -253,11 +272,11 @@ public class Movie {
 		s.append(", ");
 	    s.append(format);
 		s.append(", ");
-	    s.append(version);
+	    s.append(versions);
 		s.append(", ");
 	    s.append(quality);
 		s.append(", ");
-	    s.append(genre);
+	    s.append(genres);
 		s.append(", ");
 	    s.append(year);
 		s.append(", ");
@@ -269,7 +288,7 @@ public class Movie {
 		s.append(", ");
 	    s.append(imageLink);
 		s.append(", ");
-	    s.append(nationality);
+	    s.append(nationalities);
 		s.append(", ");
 	    s.append(provider);
 		return "[Movie: " + s.toString() + "]";
