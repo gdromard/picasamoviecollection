@@ -9,18 +9,18 @@ import net.dromard.movies.gui.beans.MainPanel;
 import net.dromard.movies.gui.util.ImageLoader;
 import net.dromard.movies.model.Movie;
 
-public class JMovieDetails extends JMainPanel implements MainPanel {
+public class JMovie extends JMainPanel implements MainPanel {
 	private static final long serialVersionUID = 4058949588845080373L;
 	private Movie movie;
 	
-	public JMovieDetails(final Movie movie) {
+	public JMovie(final Movie movie) {
 		super(movie.getTitle());
 		this.movie = movie;
 		setLayout(new BorderLayout(10, 10));
-		setContent();
+		initialize();
 	}
 
-	private void setContent() {
+	private void initialize() {
 		JThumbnail cover = new JThumbnail() {
 			@Override
 			protected Image loadThumbnail() {
@@ -28,5 +28,6 @@ public class JMovieDetails extends JMainPanel implements MainPanel {
 			}
 		};
 		add(cover, BorderLayout.CENTER);
+		add(new JMovieFields(movie));
 	}
 }
