@@ -6,6 +6,7 @@ import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.Insets;
 import java.awt.RenderingHints;
+import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 
 import javax.swing.JPanel;
@@ -22,7 +23,8 @@ import net.dromard.common.swing.InfiniteProgressPanel;
 public abstract class JThumbnail extends JPanel implements ImageObserver {
 	private Image thumbnail;
 	private InfiniteProgressPanel progress = new InfiniteProgressPanel();
-	private boolean started = false;
+	private boolean loading = false;
+	private int started = 0;
 
     /**
      * Constructor that create the button.
@@ -31,7 +33,6 @@ public abstract class JThumbnail extends JPanel implements ImageObserver {
     public JThumbnail() {
         super(new BorderLayout(10, 10));
         setOpaque(false);
-    	add(progress, BorderLayout.CENTER);
     }
 
 	/**
@@ -39,13 +40,17 @@ public abstract class JThumbnail extends JPanel implements ImageObserver {
 	 * It will call the {@link #loadThumbnail()}
 	 */
 	private void loadImage() {
+		++started;
+		loading = true;
+    	add(progress, BorderLayout.CENTER);
 		progress.setPrimitiveWidth(30);
 		progress.start();
-        thumbnail = loadThumbnail();
+        thumbnail = compactImage(loadThumbnail());
         remove(progress);
         progress.stop();
         repaint();
         SwingUtilities.updateComponentTreeUI(this);
+        loading = false;
 	}
 
     @Override
@@ -70,16 +75,15 @@ public abstract class JThumbnail extends JPanel implements ImageObserver {
     @Override
     public void paintComponent(Graphics g) {
     	super.paintComponent(g);
-    	if (started == false && thumbnail == null) { 
+    	if (!loading && started < 2 && thumbnail == null) { 
     		new Thread() {
     			@Override
     			public void run() {
     				loadImage();
     			}
     		}.start();
-    		started = true;
     	}
-		if(thumbnail != null) {
+		if (thumbnail != null) {
             // Paint parent
             Insets insets = getInsets();
 
@@ -87,7 +91,6 @@ public abstract class JThumbnail extends JPanel implements ImageObserver {
             int w = getWidth() - insets.left - insets.right;
             int h = getHeight() - insets.top - insets.bottom;
             
-            ((Graphics2D) g).setRenderingHint(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY);
             
             int orgW = thumbnail.getWidth(null);
             int orgH = thumbnail.getHeight(null);
@@ -98,7 +101,38 @@ public abstract class JThumbnail extends JPanel implements ImageObserver {
                 hh = h;
                 ww = hh * orgW / orgH;
             }
+            
+            ((Graphics2D) g).setRenderingHint(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY);
             g.drawImage(thumbnail, insets.left + (w - ww) / 2, insets.top + (h - hh) / 2, ww, hh, this);
 		}
+    }
+    
+    private Image compactImage(Image image) {
+    	if (image == null) return image;
+        // Paint parent
+        Insets insets = getInsets();
+
+        // Initialize painted image
+        int w = getWidth() - insets.left - insets.right;
+        int h = getHeight() - insets.top - insets.bottom;
+        
+        
+        int orgW = image.getWidth(null);
+        int orgH = image.getHeight(null);
+
+        int ww = w;
+        int hh = ww * orgH / orgW;
+        if (hh > h) {
+            hh = h;
+            ww = hh * orgW / orgH;
+        }
+        
+        if (ww > orgW || hh > orgH) return image;
+        BufferedImage tmp = new BufferedImage(ww, hh, BufferedImage.TYPE_INT_RGB);
+        Graphics2D g2D = (Graphics2D) tmp.getGraphics();
+		g2D.setRenderingHint(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY);
+        g2D.drawImage(image, 0, 0, ww, hh, this);
+        System.out.println("[DEBUG] Compact done " + (orgW - ww)/100);
+        return tmp;
     }
 }

@@ -2,6 +2,7 @@ package net.dromard.movies;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
@@ -47,6 +48,7 @@ public final class AppContext implements AppConstants {
 	}
 
 	public URLConnection createHttpURLConnection(String url) throws MalformedURLException, IOException {
+		HttpURLConnection.setFollowRedirects(true);
 		if (proxyHost != null && proxyPort > 0) {
 			return new HttpURLConnectionViaProxy(new URL(url), proxyHost, proxyPort);
 		} else {
