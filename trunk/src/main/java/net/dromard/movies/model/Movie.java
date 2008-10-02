@@ -1,5 +1,6 @@
 package net.dromard.movies.model;
 
+import java.awt.Image;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,8 +12,6 @@ public class Movie {
     private Integer year;
     private long length;
     private String synopsis;
-    private String imageLink;
-    private String thumbnailLink;
     private String format;
     private String quality;
     private String provider;
@@ -21,6 +20,7 @@ public class Movie {
     private List<String> nationalities = new ArrayList<String>();
     private List<String> directors = new ArrayList<String>();
     private List<String> cast = new ArrayList<String>();
+	private Image cover;
     
 	/**
 	 * @return the id
@@ -99,30 +99,6 @@ public class Movie {
 	 */
 	public void addDirector(String director) {
 		this.directors.add(director);
-	}
-	/**
-	 * @return the imageLink
-	 */
-	public String getImageLink() {
-		return imageLink;
-	}
-	/**
-	 * @param imageLink the imageLink to set
-	 */
-	public void setImageLink(String imageLink) {
-		this.imageLink = imageLink;
-	}
-	/**
-	 * @return the imageLink
-	 */
-	public String getThumbnailLink() {
-		return thumbnailLink;
-	}
-	/**
-	 * @param imageLink the imageLink to set
-	 */
-	public void setThumbnailLink(String thumbnailLink) {
-		this.thumbnailLink = thumbnailLink;
 	}
 	/**
 	 * @return the synopsis
@@ -259,6 +235,19 @@ public class Movie {
 		return format;
 	}
 	/**
+	 * @return the cover image.
+	 */
+	public Image getCover() {
+		return cover;
+	}
+	/**
+	 * @param cover the cover image to set
+	 */
+	public void setCover(Image cover) {
+		this.cover = cover;
+	}
+
+	/**
 	 * 
 	 */
 	@Override
@@ -285,8 +274,6 @@ public class Movie {
 		s.append(length);
 		s.append(", ");
 	    s.append(synopsis);
-		s.append(", ");
-	    s.append(imageLink);
 		s.append(", ");
 	    s.append(nationalities);
 		s.append(", ");

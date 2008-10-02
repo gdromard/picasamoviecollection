@@ -29,18 +29,10 @@ public class SearchFromMovieCoverAction extends GuiAction {
 		new LoadMovieListPanelAction(searchByTitle(query)).run();
 	}
 
-	private static List<Movie> searchByTitle(String query) {
-		List<Movie> movies = new ArrayList<Movie>();
-		List<String> list = null;
+	private static List<? extends Movie> searchByTitle(String query) {
+		List<? extends Movie> movies = new ArrayList<Movie>();
 		try {
-			list = AppContext.getInstance().getServiceLocator().getMovieExtractorService().findByTitle(query);
-			for (String title : list) {
-				try {
-					movies.add(AppContext.getInstance().getServiceLocator().getMovieExtractorService().getByTitle(title));
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
+			movies = AppContext.getInstance().getServiceLocator().getMovieExtractorService().findByTitle(query);
 		} catch (Exception e1) {
 			e1.printStackTrace();
 		}

@@ -10,11 +10,13 @@ import net.dromard.movies.service.IMovieExtractorService;
 
 public class MovieCoverExtractorService implements IMovieExtractorService {
 
-	public List<String> findByTitle(String title) throws MalformedURLException, IOException {
+	@Override
+	public List<? extends Movie> findByTitle(String title) throws MalformedURLException, IOException {
 		return MovieCoverHelper.searchMovie(title);
 	}
 
-	public Movie getByTitle(String title) throws MalformedURLException, IOException, ParseException {
-		return MovieCoverHelper.extractMovie(title);
+	@Override
+	public void fill(final String title, final Movie movie) throws IOException {
+		MovieCoverHelper.fillMovie(title, movie);
 	}
 }
