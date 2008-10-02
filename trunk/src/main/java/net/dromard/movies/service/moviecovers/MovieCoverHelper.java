@@ -22,6 +22,7 @@ import net.dromard.movies.model.Movie;
 public final class MovieCoverHelper {
 
 	private static String MOVIE_LIST_URL = "http://www.moviecovers.com/DATA/movies.txt";
+	private static String GET_ZIP_URL = "http://www.moviecovers.com/getzip.html/{0}.zip";
 	private static String GET_FILM_URL = "http://www.moviecovers.com/getfilm.html";
 	private static String GET_JPG_URL = "http://www.moviecovers.com/getjpg.html/{0}.jpg";
 	private static String SEARCH_URL = "http://www.moviecovers.com/multicrit.html?tri=Titre&slow=2&titre={0}";
@@ -97,6 +98,12 @@ public final class MovieCoverHelper {
 		return movie;
 	}
 
+	public static Movie extractMovieFromZip(String exactName) throws MalformedURLException, IOException, ParseException {
+		String url = MessageFormat.format(GET_ZIP_URL, URLEncoder.encode(exactName, "UTF-8"));
+		// TODO implement the retrieval of zip, retrieval of image, retrieval of txt
+		return null;
+	}
+	
 	private static Movie loadMovieCover(BufferedReader filmReader) throws IOException, ParseException {
 	    SimpleDateFormat formater = new SimpleDateFormat("HH:mm");
 		String title = filmReader.readLine();
