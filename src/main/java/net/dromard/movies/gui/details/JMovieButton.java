@@ -7,7 +7,6 @@ import java.awt.event.MouseEvent;
 import net.dromard.movies.gui.actions.LoadMovieDetailsPanelAction;
 import net.dromard.movies.gui.beans.JBigButton;
 import net.dromard.movies.gui.beans.JThumbnail;
-import net.dromard.movies.gui.util.ImageLoader;
 import net.dromard.movies.model.Movie;
 
 public class JMovieButton extends JBigButton {
@@ -21,7 +20,7 @@ public class JMovieButton extends JBigButton {
 		add(new JThumbnail() {
 			@Override
 			protected Image loadThumbnail() {
-				return ImageLoader.loadImage(movie.getThumbnailLink());
+				return movie.getCover();
 			}
 		}, BorderLayout.CENTER);
 	}

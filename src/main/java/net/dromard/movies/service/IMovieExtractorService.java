@@ -9,7 +9,7 @@ import net.dromard.movies.model.Movie;
 
 public interface IMovieExtractorService {
 
-	public List<String> findByTitle(String title) throws MalformedURLException, IOException;
+	public List<? extends Movie> findByTitle(String title) throws MalformedURLException, IOException;
 	
-	public Movie getByTitle(String title) throws MalformedURLException, IOException, ParseException;
+	public void fill(String title, Movie movie) throws IOException;
 }

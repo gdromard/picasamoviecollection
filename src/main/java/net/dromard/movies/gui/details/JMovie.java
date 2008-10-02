@@ -7,15 +7,11 @@ import java.awt.Image;
 
 import javax.swing.BorderFactory;
 import javax.swing.JSplitPane;
-import javax.swing.JTextArea;
 import javax.swing.JTextPane;
 
-import net.dromard.common.swing.SwingHelper;
-import net.dromard.movies.gui.PicasaMovieCollection;
 import net.dromard.movies.gui.beans.JMainPanel;
 import net.dromard.movies.gui.beans.JThumbnail;
 import net.dromard.movies.gui.beans.MainPanel;
-import net.dromard.movies.gui.util.ImageLoader;
 import net.dromard.movies.model.Movie;
 
 public class JMovie extends JMainPanel implements MainPanel {
@@ -35,7 +31,7 @@ public class JMovie extends JMainPanel implements MainPanel {
 		JThumbnail cover = new JThumbnail() {
 			@Override
 			protected Image loadThumbnail() {
-				return ImageLoader.loadImage(movie.getImageLink());
+				return movie.getCover();
 			}
 		};
 		cover.setSize(100, 100);
