@@ -2,7 +2,6 @@ package net.dromard.movies.service.moviecovers;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
-import java.text.ParseException;
 import java.util.List;
 
 import net.dromard.movies.model.Movie;
