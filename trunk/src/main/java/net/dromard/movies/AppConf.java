@@ -8,6 +8,7 @@ import java.text.MessageFormat;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
+import net.dromard.common.swing.SwingPropertiesHelper;
 import net.dromard.common.util.StringHelper;
 
 public final class AppConf implements AppConstants {
@@ -65,18 +66,7 @@ public final class AppConf implements AppConstants {
 	 * @return The corresponding color
 	 */
 	public Color getPropertyAsColor(String name) {
-		String color = getProperty(name);
-		if (color != null) {
-			String[] rgb = color.split(",");
-			if (rgb.length == 3) {
-				try {
-					return new Color(Integer.parseInt(rgb[0]), Integer.parseInt(rgb[1]), Integer.parseInt(rgb[2]));
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		}
-		return null;
+		return SwingPropertiesHelper.asColor(getProperty(name));
 	}
 
 	/**
@@ -87,16 +77,7 @@ public final class AppConf implements AppConstants {
 	 * @throws IOException If an error occurred while accessing the properties file.
 	 */
 	public Dimension getPropertyAsDimension(String name) {
-		String color = getProperty(name);
-		String[] rgb = color.split(",");
-		if (rgb.length == 2) {
-			try {
-				return new Dimension(Integer.parseInt(rgb[0]), Integer.parseInt(rgb[1]));
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		return null;
+		return SwingPropertiesHelper.asDimension(getProperty(name));
 	}
 
 	/**
@@ -106,9 +87,7 @@ public final class AppConf implements AppConstants {
 	 * @throws IOException If an error occurred while accessing the properties file.
 	 */
 	public Font getPropertyAsFont(String name) {
-		String font = getProperty(name);
-		if (font != null) return Font.decode(font);
-		return null;
+		return SwingPropertiesHelper.asFont(getProperty(name));
 	}
 
     /**
